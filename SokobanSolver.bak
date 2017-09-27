@@ -15,7 +15,7 @@ task main()
               OnFwd(OUT_B, SPEED-20);
           }
           else{
-              OnFwd(OUT_B, SPEED);
+              Off(OUT_B, SPEED);
               OnFwd(OUT_A, SPEED-20);
           }
           TextOut(1,53, NumToStr(SENSOR_1) + "            ");

@@ -1,56 +1,110 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_002main	6	1	0	4	8
-1	__D0main	6	1	4	4	19
-2	__D0SetSensorLight_inline_main	6	1	8	4	9
-3	__signed_stack_001main	6	1	12	4	14
-4	__DU0SetSensorLight_inline_main	5	1	16	4	6
-5	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	20	1	15
-6	____initialize_global_data_return	1	1	21	1	3
-7	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	22	1	6
-8	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	23	1	3
-9	__constVal96	2	0	24	1	4
-10	__constVal63	2	0	25	1	4
-11	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	26	1	6
-12	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	27	1	6
-13	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	28	1	6
-14	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	29	1	6
-15	__constVal3	2	0	30	1	4
-16	__ResetSensorPort	1	1	31	1	5
-17	__ResetSensorTmp	1	1	32	1	2
-18	__constVal32	2	0	33	1	12
-19	__constVal1	2	0	34	1	7
-20	__constVal0	2	1	35	1	17
-21	__zfmain	1	1	36	1	11
-22	__zfSetSensorLight_inline_main	1	1	37	1	6
-23	__constVal2	2	0	38	1	1
-24	____ResetSensorSubroutine_return	1	1	39	1	5
-25	__TextOutArgs	8	0	4	16	24
-26	__TextOutArgs.Result	2	1	40	1	24
-27	__TextOutArgs.Location	8	0	2	4	24
-28	__TextOutArgs.Location.X	4	1	44	2	24
-29	__TextOutArgs.Location.Y	4	1	46	2	24
-30	__TextOutArgs.Text	7	0	48	4	24
-31	__TextOutArgs.Text.Text_type	1	0	0	1	0
-32	__TextOutArgs.Options	5	1	52	4	24
-33	__constStr0010	7	0	56	4	2
-34	__constStr0010.__constStr0010_type	1	1	0	1	0
-35	__constStr0011	7	0	58	4	1
-36	__constStr0011.__constStr0011_type	1	1	0	1	0
-37	__strbufmain	7	0	60	4	8
-38	__strbufmain.__strbufmain_type	1	0	0	1	0
-39	__constStr0009	7	0	62	4	1
-40	__constStr0009.__constStr0009_type	1	1	0	1	0
+0	__CLSWMutex3	9	0	0	4	2
+1	__RLSBmutex3	9	0	4	4	4
+2	__CLSCSMutex3	9	0	8	4	2
+3	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	12	4	2
+4	__signed_stack_001main	6	1	16	4	28
+5	__signed_stack_002main	6	1	20	4	16
+6	__CLSRMutex3	9	0	24	4	2
+7	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	28	4	3
+8	__D0SetSensorLight_inline_main	6	1	32	4	9
+9	__DU0SetSensorLight_inline_main	5	1	36	4	6
+10	__D0main	6	1	40	4	36
+11	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	44	1	2
+12	__zfmain	1	1	45	1	14
+13	__zfSetSensorLight_inline_main	1	1	46	1	6
+14	__constVal63	2	0	47	1	4
+15	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	48	1	2
+16	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	49	1	3
+17	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	50	1	6
+18	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	51	1	4
+19	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	52	1	2
+20	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	53	1	2
+21	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	54	1	6
+22	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	55	1	15
+23	____initialize_global_data_return	1	1	56	1	3
+24	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	57	1	6
+25	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	58	1	6
+26	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	59	1	6
+27	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	60	1	2
+28	____ResetSensorSubroutine_return	1	1	61	1	6
+29	__ResetSensorTmp	1	1	62	1	2
+30	__constVal15	2	0	63	1	5
+31	__constVal40	2	0	64	1	2
+32	__ResetSensorPort	1	1	65	1	6
+33	__constVal1	2	0	66	1	9
+34	__constVal32	2	0	67	1	12
+35	__constVal3	2	0	68	1	5
+36	__constVal0	2	1	69	1	19
+37	__constVal2	2	0	70	1	1
+38	__constValNeg40	2	0	71	1	2
+39	__RLSBIterations3	1	1	72	1	4
+40	__RLSBytesCount3	1	1	73	1	8
+41	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	74	1	2
+42	__PFTmp	1	1	75	1	1
+43	__constVal20	2	0	76	1	2
+44	__RLSBResult3	2	1	77	1	7
+45	__constVal96	2	0	78	1	4
+46	____ReadLSBytes3_return	1	1	79	1	4
+47	__TextOutArgs	8	0	4	16	48
+48	__TextOutArgs.Result	2	1	80	1	48
+49	__TextOutArgs.Location	8	0	2	4	48
+50	__TextOutArgs.Location.X	4	1	84	2	48
+51	__TextOutArgs.Location.Y	4	1	86	2	48
+52	__TextOutArgs.Text	7	0	88	4	48
+53	__TextOutArgs.Text.Text_type	1	0	0	1	0
+54	__TextOutArgs.Options	5	1	92	4	48
+55	__CLSCSArgs3	8	0	3	4	4
+56	__CLSCSArgs3.Result	2	1	96	1	4
+57	__CLSCSArgs3.Port	1	1	97	1	4
+58	__CLSCSArgs3.BytesReady	1	1	98	1	4
+59	__CLSWArgs3	8	0	4	12	5
+60	__CLSWArgs3.Result	2	1	100	1	5
+61	__CLSWArgs3.Port	1	1	101	1	5
+62	__CLSWArgs3.Buffer	7	0	102	4	5
+63	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+64	__CLSWArgs3.ReturnLen	1	1	104	1	5
+65	__CLSRArgs3	8	0	4	12	5
+66	__CLSRArgs3.Result	2	1	108	1	5
+67	__CLSRArgs3.Port	1	1	109	1	5
+68	__CLSRArgs3.Buffer	7	0	110	4	5
+69	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+70	__CLSRArgs3.BufferLen	1	1	112	1	5
+71	__constStr0012	7	0	114	4	1
+72	__constStr0012.__constStr0012_type	1	1	0	1	0
+73	__constStr0013	7	0	116	4	1
+74	__constStr0013.__constStr0013_type	1	1	0	1	0
+75	__constStr0011	7	0	118	4	3
+76	__constStr0011.__constStr0011_type	1	1	0	1	0
+77	__constStr0009	7	0	120	4	2
+78	__constStr0009.__constStr0009_type	1	1	0	1	0
+79	__constStr0010	7	0	122	4	1
+80	__constStr0010.__constStr0010_type	1	1	0	1	0
+81	__RLSReadBuf3	7	0	124	4	10
+82	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+83	__RLSLastGoodRead3	7	0	126	4	2
+84	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+85	__RLSBbufLSWrite1	7	0	128	4	2
+86	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+87	__ArrHelper__main_244_0	7	0	130	4	4
+88	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+89	__strretvalmain	7	0	132	4	4
+90	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+91	__strbufmain	7	0	134	4	20
+92	__strbufmain.__strbufmain_type	1	0	0	1	0
+93	__ArrHelper__main_244_1	7	0	136	4	4
+94	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	6	0	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	7	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	6	2	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	6	2	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	7	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
-0	6	5	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	7	5	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	8	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	7	0	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	8	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	7	2	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	7	2	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	8	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	7	5	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	8	5	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	9	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	7	#line 3729 "NXCDefs.h"
 0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	9	#line 3729 "NXCDefs.h"
@@ -89,15 +143,15 @@ Clump	Line	PC	Source
 0	3695	42	#pragma macro 4
 0	3695	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6032	46	#line 6032 "NXCDefs.h"
+0	4049	46	#line 4049 "NXCDefs.h"
 0	3694	46	#line 3694 "NXCDefs.h"
 0	3732	46	#line 3732 "NXCDefs.h"
-0	7	46	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	7	46	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	8	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
-0	7	49	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	8	49	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	9	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	8	46	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	8	46	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	9	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	8	49	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	9	49	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	10	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	51	#line 3729 "NXCDefs.h"
 0	3730	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	53	#line 3729 "NXCDefs.h"
@@ -136,15 +190,15 @@ Clump	Line	PC	Source
 0	3695	86	#pragma macro 4
 0	3695	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6099	90	#line 6099 "NXCDefs.h"
+0	4116	90	#line 4116 "NXCDefs.h"
 0	3694	90	#line 3694 "NXCDefs.h"
 0	3732	90	#line 3732 "NXCDefs.h"
-0	8	90	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	8	90	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	9	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	8	93	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	9	93	#line 9 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	10	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	9	90	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	9	90	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	10	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	9	93	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	10	93	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	11	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	95	#line 3729 "NXCDefs.h"
 0	3730	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	97	#line 3729 "NXCDefs.h"
@@ -183,186 +237,441 @@ Clump	Line	PC	Source
 0	3695	130	#pragma macro 4
 0	3695	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6166	134	#line 6166 "NXCDefs.h"
+0	4183	134	#line 4183 "NXCDefs.h"
 0	3694	134	#line 3694 "NXCDefs.h"
 0	3732	134	#line 3732 "NXCDefs.h"
-0	9	134	#line 9 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	9	134	#line 9 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	10	134		set __D0main, 1
-0	10	137	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	11	137		tst 5, __zfmain, __D0main
-0	10	140	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	11	140		brtst 4, __NXC_Label_611, __zfmain
-0	10	143	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	11	143		getin __signed_stack_001main, __constVal0, 4
-0	10	147	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	10	147	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	11	147		set __D0main, 45
-0	10	150	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	11	150		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	10	154	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	11	154		mov __D0main, __zfmain
-0	11	156	#line 11 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	12	156		brtst 4, __NXC_Label_616, __zfmain
-0	12	159	#line 12 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	13	159	#pragma macro 7
-0	13	159		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6194	182	#line 6194 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	12	182	#line 12 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	12	182	#line 12 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	13	182		set __D0main, 40
-0	13	185	#line 13 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	14	185	#pragma macro 7
-0	14	185		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6201	208	#line 6201 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	13	208	#line 13 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	15	208	#line 15 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	16	208		jmp __NXC_Label_619
-0	16	210	#line 16 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	17	210	#pragma macro 7
-0	17	210		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6207	233	#line 6207 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	16	233	#line 16 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	16	233	#line 16 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	17	233		set __D0main, 40
-0	17	236	#line 17 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	18	236	#pragma macro 7
-0	18	236		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6214	259	#line 6214 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	17	259	#line 17 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	20	259	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	20	259	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	21	259		getin __signed_stack_001main, __constVal1, 4
-0	20	263	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	20	263	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	21	263		set __D0main, 10
-0	20	266	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	21	266		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	20	270	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	21	270		mov __D0main, __zfmain
-0	21	272	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	22	272		brtst 4, __NXC_Label_624, __zfmain
-0	21	275	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	22	275		set __signed_stack_001main, 1
-0	21	278	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	21	278	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	22	278		set __signed_stack_002main, 1
-0	21	281	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	21	281	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	22	281		strcat __strbufmain, __constStr0009
-0	22	285	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	22	285	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	23	285		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	22	287	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	23	287		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	22	289	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	23	289		set __TextOutArgs.Options, 0
-0	22	292	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	23	292		mov __TextOutArgs.Text, __strbufmain
-0	22	294	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	23	294		syscall 13, __TextOutArgs
-0	22	297	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	23	297		mov __D0main, __TextOutArgs.Result
-0	22	299	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	22	299	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	24	299	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	25	299		jmp __NXC_Label_629
-0	24	301	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	25	301		set __signed_stack_001main, 1
-0	24	304	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	24	304	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	25	304		set __signed_stack_002main, 1
-0	24	307	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	24	307	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	25	307		strcat __strbufmain, __constStr0010
-0	25	311	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	25	311	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	26	311		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	25	313	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	26	313		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	25	315	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	26	315		set __TextOutArgs.Options, 0
-0	25	318	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	26	318		mov __TextOutArgs.Text, __strbufmain
-0	25	320	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	26	320		syscall 13, __TextOutArgs
-0	25	323	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	26	323		mov __D0main, __TextOutArgs.Result
-0	25	325	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	25	325	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	27	325	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	27	325	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	28	325		getin __signed_stack_001main, __constVal2, 4
-0	27	329	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	27	329	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	28	329		set __D0main, 10
-0	27	332	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	28	332		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	27	336	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	28	336		mov __D0main, __zfmain
-0	28	338	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	29	338		brtst 4, __NXC_Label_636, __zfmain
-0	28	341	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	29	341		set __signed_stack_001main, 1
-0	28	344	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	28	344	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	29	344		set __signed_stack_002main, 2
-0	28	347	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	28	347	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	29	347		strcat __strbufmain, __constStr0011
-0	29	351	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	29	351	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	30	351		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	29	353	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	30	353		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	29	355	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	30	355		set __TextOutArgs.Options, 0
-0	29	358	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	30	358		mov __TextOutArgs.Text, __strbufmain
-0	29	360	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	30	360		syscall 13, __TextOutArgs
-0	29	363	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	30	363		mov __D0main, __TextOutArgs.Result
-0	29	365	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	29	365	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	31	365	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	32	365		jmp __NXC_Label_641
-0	31	367	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	32	367		set __signed_stack_001main, 1
-0	31	370	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	31	370	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	32	370		set __signed_stack_002main, 2
-0	31	373	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	31	373	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	32	373		strcat __strbufmain, __constStr0010
-0	32	377	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	32	377	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	33	377		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	32	379	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	33	379		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	32	381	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	33	381		set __TextOutArgs.Options, 0
-0	32	384	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	33	384		mov __TextOutArgs.Text, __strbufmain
-0	32	386	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	33	386		syscall 13, __TextOutArgs
-0	32	389	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	33	389		mov __D0main, __TextOutArgs.Result
-0	32	391	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	32	391	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	35	391	#line 35 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	37	391	#line 37 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	38	391		jmp __NXC_Label_610
-0	37	393	#line 37 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-0	38	393		exit -1, -1
+0	10	134	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	10	134	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	10	134	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	3768	134	#line 3768 "NXCDefs.h"
+0	3769	134		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal3
+0	3768	136	#line 3768 "NXCDefs.h"
+0	3768	136	#line 3768 "NXCDefs.h"
+0	3769	136		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	138	#line 3758 "NXCDefs.h"
+0	3759	138		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	140	#line 3758 "NXCDefs.h"
+0	3758	140	#line 3758 "NXCDefs.h"
+0	3759	140		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	142	#line 3758 "NXCDefs.h"
+0	3759	142		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	145	#line 3758 "NXCDefs.h"
+0	3759	145		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	148	#line 3758 "NXCDefs.h"
+0	3759	148		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	151	#line 3758 "NXCDefs.h"
+0	3759	151		jmp __001__001__NXC_Label_37
+0	3758	153	#line 3758 "NXCDefs.h"
+0	3759	153		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	156	#line 3758 "NXCDefs.h"
+0	3759	156		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	158	#line 3663 "NXCDefs.h"
+0	3664	158		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	162	#line 3663 "NXCDefs.h"
+0	3759	162	#line 3759 "NXCDefs.h"
+0	3759	162	#line 3759 "NXCDefs.h"
+0	3760	162		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	164	#line 3759 "NXCDefs.h"
+0	3759	164	#line 3759 "NXCDefs.h"
+0	3760	164		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	167	#line 3759 "NXCDefs.h"
+0	3676	167	#line 3676 "NXCDefs.h"
+0	3677	167		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	171	#line 3676 "NXCDefs.h"
+0	3760	171	#line 3760 "NXCDefs.h"
+0	3760	171	#line 3760 "NXCDefs.h"
+0	3760	171	#line 3760 "NXCDefs.h"
+0	3694	171	#line 3694 "NXCDefs.h"
+0	3695	171	#pragma macro 4
+0	3695	171		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	173		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4288	175	#line 4288 "NXCDefs.h"
+0	3694	175	#line 3694 "NXCDefs.h"
+0	3761	175	#line 3761 "NXCDefs.h"
+0	3768	175	#line 3768 "NXCDefs.h"
+0	11	175	#line 11 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	11	175	#line 11 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	12	175		set __D0main, 1
+0	12	178	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	13	178		tst 5, __zfmain, __D0main
+0	12	181	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	13	181		brtst 4, __NXC_Label_498, __zfmain
+0	12	184	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	13	184		getin __signed_stack_001main, __constVal0, 4
+0	12	188	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	12	188	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	13	188		set __D0main, 35
+0	12	191	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	13	191		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	12	195	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	13	195		mov __D0main, __zfmain
+0	13	197	#line 13 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	197		brtst 4, __NXC_Label_503, __zfmain
+0	13	200	#line 13 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	200		mov __D0main, __constValNeg40
+0	14	202	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	15	202	#pragma macro 7
+0	15	202		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4321	225	#line 4321 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	225	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	225	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	225	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	225	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	225	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	15	225		sub __signed_stack_001main, __constVal0, __constVal40
+0	14	229	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	229	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	14	229	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	15	229		sub __D0main, __signed_stack_001main, __constVal20
+0	15	233	#line 15 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	16	233	#pragma macro 7
+0	16	233		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4340	256	#line 4340 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	15	256	#line 15 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	17	256	#line 17 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	256		jmp __NXC_Label_508
+0	17	258	#line 17 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	258		mov __D0main, __constValNeg40
+0	18	260	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	19	260	#pragma macro 7
+0	19	260		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4350	283	#line 4350 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	283	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	283	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	283	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	283	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	283	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	19	283		sub __signed_stack_001main, __constVal0, __constVal40
+0	18	287	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	287	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	18	287	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	19	287		sub __D0main, __signed_stack_001main, __constVal20
+0	19	291	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	20	291	#pragma macro 7
+0	20	291		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4369	314	#line 4369 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	19	314	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	20	314	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	20	314	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	314		set __signed_stack_001main, 1
+0	20	317	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	20	317	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	317		set __signed_stack_002main, 53
+0	20	320	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	20	320	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	320		getin __D0main, __constVal0, 4
+0	20	324	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	324		numtostr __strretvalmain, __D0main
+0	20	327	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	327		mov __ArrHelper__main_244_0, __strretvalmain
+0	20	329	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	329		strcat __strbufmain, __constStr0009
+0	20	333	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	333		mov __ArrHelper__main_244_1, __strbufmain
+0	20	335	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	21	335		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	22	340	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	22	340	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	340		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	22	342	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	342		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	22	344	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	344		set __TextOutArgs.Options, 0
+0	22	347	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	347		mov __TextOutArgs.Text, __strbufmain
+0	22	349	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	349		syscall 13, __TextOutArgs
+0	22	352	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	352		mov __D0main, __TextOutArgs.Result
+0	22	354	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	22	354	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	22	354	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	22	354	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	354		getin __signed_stack_001main, __constVal2, 4
+0	22	358	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	22	358	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	358		set __D0main, 23
+0	22	361	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	361		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	22	365	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	365		mov __D0main, __zfmain
+0	23	367	#line 23 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	24	367		brtst 4, __NXC_Label_521, __zfmain
+0	23	370	#line 23 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	24	370		set __signed_stack_001main, 1
+0	23	373	#line 23 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	373	#line 23 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	24	373		set __signed_stack_002main, 1
+0	23	376	#line 23 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	23	376	#line 23 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	24	376		strcat __strbufmain, __constStr0010
+0	24	380	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	24	380	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	25	380		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	24	382	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	25	382		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	24	384	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	25	384		set __TextOutArgs.Options, 0
+0	24	387	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	25	387		mov __TextOutArgs.Text, __strbufmain
+0	24	389	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	25	389		syscall 13, __TextOutArgs
+0	24	392	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	25	392		mov __D0main, __TextOutArgs.Result
+0	24	394	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	24	394	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	26	394	#line 26 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	27	394		jmp __NXC_Label_526
+0	26	396	#line 26 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	27	396		set __signed_stack_001main, 1
+0	26	399	#line 26 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	26	399	#line 26 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	27	399		set __signed_stack_002main, 1
+0	26	402	#line 26 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	26	402	#line 26 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	27	402		strcat __strbufmain, __constStr0011
+0	27	406	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	27	406	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	28	406		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	27	408	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	28	408		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	27	410	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	28	410		set __TextOutArgs.Options, 0
+0	27	413	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	28	413		mov __TextOutArgs.Text, __strbufmain
+0	27	415	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	28	415		syscall 13, __TextOutArgs
+0	27	418	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	28	418		mov __D0main, __TextOutArgs.Result
+0	27	420	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	27	420	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	29	420	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	29	420	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	30	420		getin __signed_stack_001main, __constVal1, 4
+0	29	424	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	29	424	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	30	424		set __D0main, 23
+0	29	427	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	30	427		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	29	431	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	30	431		mov __D0main, __zfmain
+0	30	433	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	31	433		brtst 4, __NXC_Label_533, __zfmain
+0	30	436	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	31	436		set __signed_stack_001main, 1
+0	30	439	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	30	439	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	31	439		set __signed_stack_002main, 15
+0	30	442	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	30	442	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	31	442		strcat __strbufmain, __constStr0012
+0	31	446	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	31	446	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	32	446		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	31	448	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	32	448		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	31	450	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	32	450		set __TextOutArgs.Options, 0
+0	31	453	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	32	453		mov __TextOutArgs.Text, __strbufmain
+0	31	455	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	32	455		syscall 13, __TextOutArgs
+0	31	458	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	32	458		mov __D0main, __TextOutArgs.Result
+0	31	460	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	31	460	#line 31 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	33	460	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	34	460		jmp __NXC_Label_538
+0	33	462	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	34	462		set __signed_stack_001main, 1
+0	33	465	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	33	465	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	34	465		set __signed_stack_002main, 15
+0	33	468	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	33	468	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	34	468		strcat __strbufmain, __constStr0011
+0	34	472	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	34	472	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	35	472		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	34	474	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	35	474		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	34	476	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	35	476		set __TextOutArgs.Options, 0
+0	34	479	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	35	479		mov __TextOutArgs.Text, __strbufmain
+0	34	481	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	35	481		syscall 13, __TextOutArgs
+0	34	484	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	35	484		mov __D0main, __TextOutArgs.Result
+0	34	486	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	34	486	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	36	486	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	36	486	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	486		set __signed_stack_001main, 1
+0	36	489	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	36	489	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	489		set __signed_stack_002main, 45
+0	36	492	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	36	492	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	492	#pragma macro 26
+0	37	492		acquire __RLSBmutex3
+0	37	493		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	37	495		set __RLSBytesCount3, 1
+0	37	498		wait2 NA, __constVal15
+0	37	501		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	37	503		index __D0main, __RLSReadBuf3, 65535
+0	37	507		release __RLSBmutex3
+0	4592	508	#line 4592 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	36	508	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	508		numtostr __strretvalmain, __D0main
+0	36	511	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	511		mov __ArrHelper__main_244_0, __strretvalmain
+0	36	513	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	513		strcat __strbufmain, __constStr0009
+0	36	517	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	517		mov __ArrHelper__main_244_1, __strbufmain
+0	36	519	#line 36 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	37	519		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	41	524	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	41	524	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	524		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	41	526	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	526		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	41	528	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	528		set __TextOutArgs.Options, 0
+0	41	531	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	531		mov __TextOutArgs.Text, __strbufmain
+0	41	533	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	533		syscall 13, __TextOutArgs
+0	41	536	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	536		mov __D0main, __TextOutArgs.Result
+0	41	538	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	41	538	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	41	538	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	41	538	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	538	#pragma macro 26
+0	42	538		acquire __RLSBmutex3
+0	42	539		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	42	541		set __RLSBytesCount3, 1
+0	42	544		wait2 NA, __constVal15
+0	42	547		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	42	549		index __D0main, __RLSReadBuf3, 65535
+0	42	553		release __RLSBmutex3
+0	4624	554	#line 4624 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	41	554	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	554		mov __signed_stack_001main, __D0main
+0	41	556	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	556		set __D0main, 9
+0	41	559	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	559		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	41	563	#line 41 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	563		mov __D0main, __zfmain
+0	42	565	#line 42 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	43	565		brtst 4, __NXC_Label_551, __zfmain
+0	42	568	#line 42 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	43	568		set __signed_stack_001main, 1
+0	42	571	#line 42 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	571	#line 42 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	43	571		set __signed_stack_002main, 30
+0	42	574	#line 42 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	42	574	#line 42 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	43	574		strcat __strbufmain, __constStr0013
+0	43	578	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	43	578	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	44	578		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	43	580	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	44	580		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	43	582	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	44	582		set __TextOutArgs.Options, 0
+0	43	585	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	44	585		mov __TextOutArgs.Text, __strbufmain
+0	43	587	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	44	587		syscall 13, __TextOutArgs
+0	43	590	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	44	590		mov __D0main, __TextOutArgs.Result
+0	43	592	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	43	592	#line 43 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	45	592	#line 45 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	46	592		jmp __NXC_Label_556
+0	45	594	#line 45 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	46	594		set __signed_stack_001main, 1
+0	45	597	#line 45 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	45	597	#line 45 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	46	597		set __signed_stack_002main, 30
+0	45	600	#line 45 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	45	600	#line 45 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	46	600		strcat __strbufmain, __constStr0011
+0	46	604	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	46	604	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	47	604		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	46	606	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	47	606		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	46	608	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	47	608		set __TextOutArgs.Options, 0
+0	46	611	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	47	611		mov __TextOutArgs.Text, __strbufmain
+0	46	613	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	47	613		syscall 13, __TextOutArgs
+0	46	616	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	47	616		mov __D0main, __TextOutArgs.Result
+0	46	618	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	46	618	#line 46 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	51	618	#line 51 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	53	618	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	54	618		jmp __NXC_Label_497
+0	53	620	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	54	620		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	63	0	#line 63 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
-2	64	0		subret ____initialize_global_data_return
+2	5784	0	#pragma macro 25
+2	5784	0		acquire __CLSWMutex3
+2	5784	1		set __CLSWArgs3.Port, 3
+2	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	5784	8		syscall 21, __CLSWArgs3
+2	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+2	5784	13		release __CLSWMutex3
+2	5784	14	#line 5784 "NXTDefs.h"
+2	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+2	5788	24		set __RLSBIterations3, 4
+2	5790	27	#pragma macro 23
+2	5790	27		acquire __CLSCSMutex3
+2	5790	28		set __CLSCSArgs3.Port, 3
+2	5790	31		syscall 23, __CLSCSArgs3
+2	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+2	5790	38		release __CLSCSMutex3
+2	5790	39	#line 5790 "NXTDefs.h"
+2	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+2	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+2	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	5796	52		wait2 NA, __constVal15
+2	5797	55		jmp __RLSBDoCheckStatus3
+2	5800	57	#pragma macro 25
+2	5800	57		acquire __CLSRMutex3
+2	5800	58		set __CLSRArgs3.Port, 3
+2	5800	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	5800	63		syscall 22, __CLSRArgs3
+2	5800	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	5800	68		mov __RLSBResult3, __CLSRArgs3.Result
+2	5800	70		release __CLSRMutex3
+2	5800	71	#line 5800 "NXTDefs.h"
+2	5801	71		brtst 5, __RLSBError3, __RLSBResult3
+2	5802	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	5803	76		jmp __RLSBDone3
+2	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	5809	83		subret ____ReadLSBytes3_return
+3	78	0	#line 78 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+3	79	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Jannis\AppData\Local\Temp\temp.nxc
-1	__ResetSensorSubroutine	396	NXTDefs.h
-2	__initialize_global_data	409	C:\Users\Jannis\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc
+1	__ResetSensorSubroutine	623	NXTDefs.h
+2	__ReadLSBytes3	636	NXTDefs.h
+3	__initialize_global_data	721	C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc
