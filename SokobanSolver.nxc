@@ -1,0 +1,62 @@
+
+#define THRESHOLD 45
+#define SPEED 40
+#define BLACK 10
+task main()
+{
+     SetSensorLight(IN_1);   // Middle
+     SetSensorLight(IN_2);   // Left
+     SetSensorLight(IN_3);   // Right
+     while(true){
+          if(SENSOR_1 < THRESHOLD){
+              Off(OUT_A);
+              OnFwd(OUT_B, SPEED);
+          }
+          else{
+              Off(OUT_B);
+              OnFwd(OUT_A, SPEED);
+          }
+          
+
+          if(SENSOR_2 < BLACK){
+              TextOut(1,1, "LEFT LightSensor Black");
+          }
+          else{
+              TextOut(1,1, "");
+          }
+          
+          if(SENSOR_3 < BLACK){
+              TextOut(1,2, "RIGHT LightSensor Black");
+          }
+          else{
+              TextOut(1,2, "");
+          }
+          
+     }
+}
+
+void forwardUntilCrossing()
+{
+
+
+}
+
+void crossing(int direction){
+
+     if(direction == 1 ){
+      // Rechts rum drehen
+      return;
+     }
+     
+     if(direction == 0){
+      // Weiter geradeaus fahren
+     }
+
+     if(direction == 2){
+      // Links rum drehen
+     
+     }
+     return;
+}
+
+

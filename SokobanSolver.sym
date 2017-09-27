@@ -1,0 +1,368 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	8
+1	__D0main	6	1	4	4	19
+2	__D0SetSensorLight_inline_main	6	1	8	4	9
+3	__signed_stack_001main	6	1	12	4	14
+4	__DU0SetSensorLight_inline_main	5	1	16	4	6
+5	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	20	1	15
+6	____initialize_global_data_return	1	1	21	1	3
+7	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	22	1	6
+8	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	23	1	3
+9	__constVal96	2	0	24	1	4
+10	__constVal63	2	0	25	1	4
+11	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	26	1	6
+12	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	27	1	6
+13	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	28	1	6
+14	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	29	1	6
+15	__constVal3	2	0	30	1	4
+16	__ResetSensorPort	1	1	31	1	5
+17	__ResetSensorTmp	1	1	32	1	2
+18	__constVal32	2	0	33	1	12
+19	__constVal1	2	0	34	1	7
+20	__constVal0	2	1	35	1	17
+21	__zfmain	1	1	36	1	11
+22	__zfSetSensorLight_inline_main	1	1	37	1	6
+23	__constVal2	2	0	38	1	1
+24	____ResetSensorSubroutine_return	1	1	39	1	5
+25	__TextOutArgs	8	0	4	16	24
+26	__TextOutArgs.Result	2	1	40	1	24
+27	__TextOutArgs.Location	8	0	2	4	24
+28	__TextOutArgs.Location.X	4	1	44	2	24
+29	__TextOutArgs.Location.Y	4	1	46	2	24
+30	__TextOutArgs.Text	7	0	48	4	24
+31	__TextOutArgs.Text.Text_type	1	0	0	1	0
+32	__TextOutArgs.Options	5	1	52	4	24
+33	__constStr0010	7	0	56	4	2
+34	__constStr0010.__constStr0010_type	1	1	0	1	0
+35	__constStr0011	7	0	58	4	1
+36	__constStr0011.__constStr0011_type	1	1	0	1	0
+37	__strbufmain	7	0	60	4	8
+38	__strbufmain.__strbufmain_type	1	0	0	1	0
+39	__constStr0009	7	0	62	4	1
+40	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	6	0	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	7	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	6	2	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	6	2	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	7	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	6	5	#line 6 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	7	5	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	8	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	7	#line 3729 "NXCDefs.h"
+0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3730	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	11	#line 3729 "NXCDefs.h"
+0	3730	11		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	14	#line 3729 "NXCDefs.h"
+0	3730	14		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		set __D0SetSensorLight_inline_main, 5
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		jmp __001__NXC_Label_5
+0	3729	22	#line 3729 "NXCDefs.h"
+0	3730	22		set __D0SetSensorLight_inline_main, 6
+0	3729	25	#line 3729 "NXCDefs.h"
+0	3730	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3731	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3731	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3732	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	42	#line 3731 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6032	46	#line 6032 "NXCDefs.h"
+0	3694	46	#line 3694 "NXCDefs.h"
+0	3732	46	#line 3732 "NXCDefs.h"
+0	7	46	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	7	46	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	8	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	7	49	#line 7 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	8	49	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	9	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	51	#line 3729 "NXCDefs.h"
+0	3730	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	53	#line 3729 "NXCDefs.h"
+0	3729	53	#line 3729 "NXCDefs.h"
+0	3730	53		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	55	#line 3729 "NXCDefs.h"
+0	3730	55		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	58	#line 3729 "NXCDefs.h"
+0	3730	58		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	61	#line 3729 "NXCDefs.h"
+0	3730	61		set __D0SetSensorLight_inline_main, 5
+0	3729	64	#line 3729 "NXCDefs.h"
+0	3730	64		jmp __002__NXC_Label_5
+0	3729	66	#line 3729 "NXCDefs.h"
+0	3730	66		set __D0SetSensorLight_inline_main, 6
+0	3729	69	#line 3729 "NXCDefs.h"
+0	3730	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	71	#line 3663 "NXCDefs.h"
+0	3664	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	75	#line 3663 "NXCDefs.h"
+0	3730	75	#line 3730 "NXCDefs.h"
+0	3730	75	#line 3730 "NXCDefs.h"
+0	3731	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3731	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	80	#line 3730 "NXCDefs.h"
+0	3676	80	#line 3676 "NXCDefs.h"
+0	3677	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	84	#line 3676 "NXCDefs.h"
+0	3731	84	#line 3731 "NXCDefs.h"
+0	3731	84	#line 3731 "NXCDefs.h"
+0	3732	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	86	#line 3731 "NXCDefs.h"
+0	3694	86	#line 3694 "NXCDefs.h"
+0	3695	86	#pragma macro 4
+0	3695	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6099	90	#line 6099 "NXCDefs.h"
+0	3694	90	#line 3694 "NXCDefs.h"
+0	3732	90	#line 3732 "NXCDefs.h"
+0	8	90	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	8	90	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	9	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	8	93	#line 8 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	9	93	#line 9 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	10	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	95	#line 3729 "NXCDefs.h"
+0	3730	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	97	#line 3729 "NXCDefs.h"
+0	3729	97	#line 3729 "NXCDefs.h"
+0	3730	97		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	99	#line 3729 "NXCDefs.h"
+0	3730	99		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	102	#line 3729 "NXCDefs.h"
+0	3730	102		brtst 4, __003__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	105	#line 3729 "NXCDefs.h"
+0	3730	105		set __D0SetSensorLight_inline_main, 5
+0	3729	108	#line 3729 "NXCDefs.h"
+0	3730	108		jmp __003__NXC_Label_5
+0	3729	110	#line 3729 "NXCDefs.h"
+0	3730	110		set __D0SetSensorLight_inline_main, 6
+0	3729	113	#line 3729 "NXCDefs.h"
+0	3730	113		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	115	#line 3663 "NXCDefs.h"
+0	3664	115		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	119	#line 3663 "NXCDefs.h"
+0	3730	119	#line 3730 "NXCDefs.h"
+0	3730	119	#line 3730 "NXCDefs.h"
+0	3731	119		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	121	#line 3730 "NXCDefs.h"
+0	3730	121	#line 3730 "NXCDefs.h"
+0	3731	121		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	124	#line 3730 "NXCDefs.h"
+0	3676	124	#line 3676 "NXCDefs.h"
+0	3677	124		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	128	#line 3676 "NXCDefs.h"
+0	3731	128	#line 3731 "NXCDefs.h"
+0	3731	128	#line 3731 "NXCDefs.h"
+0	3732	128		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	130	#line 3731 "NXCDefs.h"
+0	3694	130	#line 3694 "NXCDefs.h"
+0	3695	130	#pragma macro 4
+0	3695	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6166	134	#line 6166 "NXCDefs.h"
+0	3694	134	#line 3694 "NXCDefs.h"
+0	3732	134	#line 3732 "NXCDefs.h"
+0	9	134	#line 9 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	9	134	#line 9 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	10	134		set __D0main, 1
+0	10	137	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	11	137		tst 5, __zfmain, __D0main
+0	10	140	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	11	140		brtst 4, __NXC_Label_611, __zfmain
+0	10	143	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	11	143		getin __signed_stack_001main, __constVal0, 4
+0	10	147	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	10	147	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	11	147		set __D0main, 45
+0	10	150	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	11	150		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	10	154	#line 10 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	11	154		mov __D0main, __zfmain
+0	11	156	#line 11 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	12	156		brtst 4, __NXC_Label_616, __zfmain
+0	12	159	#line 12 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	13	159	#pragma macro 7
+0	13	159		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6194	182	#line 6194 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	12	182	#line 12 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	12	182	#line 12 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	13	182		set __D0main, 40
+0	13	185	#line 13 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	14	185	#pragma macro 7
+0	14	185		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6201	208	#line 6201 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	13	208	#line 13 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	15	208	#line 15 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	16	208		jmp __NXC_Label_619
+0	16	210	#line 16 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	17	210	#pragma macro 7
+0	17	210		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6207	233	#line 6207 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	16	233	#line 16 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	16	233	#line 16 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	17	233		set __D0main, 40
+0	17	236	#line 17 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	18	236	#pragma macro 7
+0	18	236		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6214	259	#line 6214 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	17	259	#line 17 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	20	259	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	20	259	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	21	259		getin __signed_stack_001main, __constVal1, 4
+0	20	263	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	20	263	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	21	263		set __D0main, 10
+0	20	266	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	21	266		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	20	270	#line 20 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	21	270		mov __D0main, __zfmain
+0	21	272	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	22	272		brtst 4, __NXC_Label_624, __zfmain
+0	21	275	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	22	275		set __signed_stack_001main, 1
+0	21	278	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	21	278	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	22	278		set __signed_stack_002main, 1
+0	21	281	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	21	281	#line 21 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	22	281		strcat __strbufmain, __constStr0009
+0	22	285	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	22	285	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	23	285		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	22	287	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	23	287		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	22	289	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	23	289		set __TextOutArgs.Options, 0
+0	22	292	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	23	292		mov __TextOutArgs.Text, __strbufmain
+0	22	294	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	23	294		syscall 13, __TextOutArgs
+0	22	297	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	23	297		mov __D0main, __TextOutArgs.Result
+0	22	299	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	22	299	#line 22 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	24	299	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	25	299		jmp __NXC_Label_629
+0	24	301	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	25	301		set __signed_stack_001main, 1
+0	24	304	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	24	304	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	25	304		set __signed_stack_002main, 1
+0	24	307	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	24	307	#line 24 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	25	307		strcat __strbufmain, __constStr0010
+0	25	311	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	25	311	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	26	311		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	25	313	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	26	313		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	25	315	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	26	315		set __TextOutArgs.Options, 0
+0	25	318	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	26	318		mov __TextOutArgs.Text, __strbufmain
+0	25	320	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	26	320		syscall 13, __TextOutArgs
+0	25	323	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	26	323		mov __D0main, __TextOutArgs.Result
+0	25	325	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	25	325	#line 25 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	27	325	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	27	325	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	28	325		getin __signed_stack_001main, __constVal2, 4
+0	27	329	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	27	329	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	28	329		set __D0main, 10
+0	27	332	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	28	332		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	27	336	#line 27 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	28	336		mov __D0main, __zfmain
+0	28	338	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	29	338		brtst 4, __NXC_Label_636, __zfmain
+0	28	341	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	29	341		set __signed_stack_001main, 1
+0	28	344	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	28	344	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	29	344		set __signed_stack_002main, 2
+0	28	347	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	28	347	#line 28 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	29	347		strcat __strbufmain, __constStr0011
+0	29	351	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	29	351	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	30	351		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	29	353	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	30	353		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	29	355	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	30	355		set __TextOutArgs.Options, 0
+0	29	358	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	30	358		mov __TextOutArgs.Text, __strbufmain
+0	29	360	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	30	360		syscall 13, __TextOutArgs
+0	29	363	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	30	363		mov __D0main, __TextOutArgs.Result
+0	29	365	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	29	365	#line 29 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	31	365	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	32	365		jmp __NXC_Label_641
+0	31	367	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	32	367		set __signed_stack_001main, 1
+0	31	370	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	31	370	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	32	370		set __signed_stack_002main, 2
+0	31	373	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	31	373	#line 31 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	32	373		strcat __strbufmain, __constStr0010
+0	32	377	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	32	377	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	33	377		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	32	379	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	33	379		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	32	381	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	33	381		set __TextOutArgs.Options, 0
+0	32	384	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	33	384		mov __TextOutArgs.Text, __strbufmain
+0	32	386	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	33	386		syscall 13, __TextOutArgs
+0	32	389	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	33	389		mov __D0main, __TextOutArgs.Result
+0	32	391	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	32	391	#line 32 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	35	391	#line 35 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	37	391	#line 37 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	38	391		jmp __NXC_Label_610
+0	37	393	#line 37 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+0	38	393		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	63	0	#line 63 "C:\Users\Jannis\AppData\Local\Temp\temp.nxc"
+2	64	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Jannis\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	396	NXTDefs.h
+2	__initialize_global_data	409	C:\Users\Jannis\AppData\Local\Temp\temp.nxc
