@@ -1,7 +1,7 @@
 
-#define THRESHOLD_LIGHTSENSOR 35
+//#define THRESHOLD_LIGHTSENSOR 52
 #define NEAR 9
-#define SPEED -40
+#define SPEED -30
 #define BLACK 23
 task main()
 {
@@ -9,7 +9,35 @@ task main()
      SetSensorLight(IN_2);   // Right
      SetSensorLight(IN_3);   // Left
      SetSensorUltrasonic(IN_4);// UltraSonicSensor
+     
+     int minLightValue = 101;
+     int maxLightValue = 0;
+     int threshold_lightsensor = 50;
+     
      while(true){
+                 //Update Min/Max Light Values
+                 if(SENSOR_1 < minLightValue) minLightValue = SENSOR_1;
+                 if(SENSOR_1 > maxLightValue) maxLightValue = SENSOR_1;
+                 threshold_lightsensor = (maxLightValue + minLightValue) / 2;
+                 
+                 int sen1Diff = (SENSOR_1 - threshold_lightsensor) * 0.8;
+                 
+                 if(SENSOR_1 < threshold_lightsensor)
+                 {
+                    sen1Diff *= 2;
+                 }
+                 
+                 int aSpeed = SPEED - sen1Diff;
+                 int bSpeed = SPEED + sen1Diff;
+                 
+                 if(aSpeed > 0) aSpeed = 0;
+                 if(bSpeed > 0) bSpeed = 0;
+                 OnFwd(OUT_A, aSpeed);
+                 OnFwd(OUT_B, bSpeed);
+                 
+                 
+                 
+                 /*
           if(SENSOR_1 < THRESHOLD_LIGHTSENSOR){
               OnFwd(OUT_A, SPEED);
               OnFwd(OUT_B, SPEED-20);
@@ -18,7 +46,9 @@ task main()
               OnFwd(OUT_B, SPEED);
               OnFwd(OUT_A, SPEED-20);
           }
-          TextOut(1,53, NumToStr(SENSOR_1) + "            ");
+          */
+          TextOut(1,60, "Light Sensor: "+NumToStr(SENSOR_1) + "            ");
+          TextOut(1,50, "Treshold    : "+NumToStr(threshold_lightsensor) + "            ");
 
           if(SENSOR_3 < BLACK){
               TextOut(1,1, "LEFT LightSensor Black");
@@ -73,5 +103,45 @@ void crossing(int direction){
       RotateMotorEx(OUT_AB, 75, -360, 50, true, true);
      }
 }
+
+
+
+
+ /*
+static double _dt;
+static double _max;
+static double _min;
+static double _Kp;
+static double _Kd;
+static double _Ki;
+static double _pre_error;
+static double _integral;
+
+void lsPidInit(double dt, double max, double min, double Kp, double Kd, double Ki)
+{
+     _dt = dt;
+     _max = max;
+     _min = min;
+     _Kp = Kp;
+     _Kd = Kd;
+     _Ki = Ki;
+}
+
+              */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
