@@ -1,64 +1,93 @@
 
 //#define THRESHOLD_LIGHTSENSOR 52
 #define NEAR 9
-#define SPEED -30
-#define BLACK 23
+#define SPEED 40
+#define BLACK 35
+#define LS_INFLUENCE_FAC 1
+
+// PID variables
+float _dt;
+float _max;
+float _min;
+float _Kp;
+float _Kd;
+float _Ki;
+float _pre_error;
+float _integral;
+
+// PID functions
+void pidInit (float dt, float max, float min, float Kp, float Kd, float Ki);
+float pidCalculate(float setpoint, float pv);
+
+int normalize(float val, float min, float max) {
+    if(max - min < 1.0) return SPEED;
+    
+    return ((val - min) / (max - min)) * 100.0;
+}
+
 task main()
 {
      SetSensorLight(IN_1);   // Middle
      SetSensorLight(IN_2);   // Right
      SetSensorLight(IN_3);   // Left
      SetSensorUltrasonic(IN_4);// UltraSonicSensor
-     
-     int minLightValue = 101;
-     int maxLightValue = -1;
-     int threshold_lightsensor = 50;
-     
+
+     int minLightValue2 = 1000;
+     int maxLightValue2 = -1;
+     int minLightValue1 = 1000;
+     int maxLightValue1 = -1;
+     int threshold_lightsensor1 = 50;
+     int threshold_lightsensor2 = 50;
+
      while(true){
-                 //Update Min/Max Light Values
-                 if(SENSOR_1 < minLightValue) minLightValue = SENSOR_1;
-                 if(SENSOR_1 > maxLightValue) maxLightValue = SENSOR_1;
-                 threshold_lightsensor = (maxLightValue + minLightValue) / 2;
+     //Update Min/Max Light Values
+                 if(SENSOR_1 < minLightValue1) minLightValue1 = SENSOR_1;
+                 if(SENSOR_1 > maxLightValue1) maxLightValue1 = SENSOR_1;
+                 if(SENSOR_2 < minLightValue2) minLightValue2 = SENSOR_2;
+                 if(SENSOR_2 > maxLightValue2) maxLightValue2 = SENSOR_2;
+                 threshold_lightsensor1 = (maxLightValue1 + minLightValue1) / 2;
+                 threshold_lightsensor2 = (maxLightValue2 + minLightValue2) / 2;
+
+                 int sensorDiff1 = (threshold_lightsensor1 - SENSOR_1)*LS_INFLUENCE_FAC;
+                 int sensorDiff2 = (threshold_lightsensor2 - SENSOR_2)*LS_INFLUENCE_FAC;
+
                  
-                 int sen1Diff = (SENSOR_1 - threshold_lightsensor) * 1.8;
-                 
-                 int aSpeed = SPEED - sen1Diff;
-                 int bSpeed = SPEED + sen1Diff;
-                 
-                 if(aSpeed > 0) aSpeed = 0;
-                 if(bSpeed > 0) bSpeed = 0;
-                 OnFwd(OUT_A, aSpeed);
-                 OnFwd(OUT_B, bSpeed);
-                 
-                 
-                 
-                 /*
-          if(SENSOR_1 < THRESHOLD_LIGHTSENSOR){
-              OnFwd(OUT_A, SPEED);
-              OnFwd(OUT_B, SPEED-20);
-          }
-          else{
-              OnFwd(OUT_B, SPEED);
-              OnFwd(OUT_A, SPEED-20);
-          }
-          */
-          TextOut(1,60, "Light Sensor: "+NumToStr(SENSOR_1) + "            ");
-          TextOut(1,50, "Treshold    : "+NumToStr(threshold_lightsensor) + "            ");
+                 int aSpeed = SPEED + sensorDiff1;
+                 int bSpeed = SPEED + sensorDiff2;
+
+                 if(aSpeed < 0) aSpeed = 0;
+                 if(bSpeed < 0) bSpeed = 0;
+                 //OnFwd(OUT_A, -normalize(SENSOR_2, minLightValue2, maxLightValue2));
+                 //OnFwd(OUT_B, -normalize(SENSOR_1, minLightValue1, maxLightValue1));
+
+                 bSpeed = 20 + ((SENSOR_2 - minLightValue2) * 25) / (maxLightValue2 - minLightValue2);
+                 aSpeed = 20 + ((SENSOR_1 - minLightValue1) * 25) / (maxLightValue1 - minLightValue1);
+
+                 OnFwd(OUT_A, - aSpeed);
+                 OnFwd(OUT_B, - bSpeed);
+
+          TextOut(1,60, "L Sensor1: "+NumToStr(SENSOR_1) + "       ");
+          TextOut(1,50, "L Sensor2: "+NumToStr(SENSOR_2) + "       ");
+          TextOut(1,40, "SpeedA: "+NumToStr(aSpeed) + "       ");
+          TextOut(1,30, "SpeedB: "+NumToStr(bSpeed) + "       ");
 
           if(SENSOR_3 < BLACK){
               TextOut(1,1, "LEFT LightSensor Black");
+              OnFwd(OUT_A, -SPEED);
+              OnFwd(OUT_B, -SPEED);
+              Wait(300);
           }
           else{
               TextOut(1,1, "                       ");
           }
-          
+
           if(SENSOR_2 < BLACK){
-              TextOut(1,15, "RIGHT LightSensor Black");
+              TextOut(1,20, "RIGHT LightSensor Black");
           }
           else{
-              TextOut(1,15, "                       ");
+              TextOut(1,20, "                       ");
           }
-          
+
           TextOut(1,45, NumToStr(SensorUS(IN_4)) + "            ");
 
           //while(SensorUS(IN_4)>NEAR);
@@ -71,8 +100,8 @@ task main()
                TextOut(1,30, "                       ");
           }
 
-          
-          
+
+
      }
 }
 
@@ -88,7 +117,7 @@ void crossing(int direction){
       // Turn to the RIGHT
       RotateMotorEx(OUT_AB, 75, 360, 50, true, true);
      }
-     
+
      if(direction == 0){
       // Go on straight forward
      }
@@ -99,30 +128,50 @@ void crossing(int direction){
      }
 }
 
-
-
-
- /*
-static double _dt;
-static double _max;
-static double _min;
-static double _Kp;
-static double _Kd;
-static double _Ki;
-static double _pre_error;
-static double _integral;
-
-void lsPidInit(double dt, double max, double min, double Kp, double Kd, double Ki)
-{
-     _dt = dt;
-     _max = max;
-     _min = min;
-     _Kp = Kp;
-     _Kd = Kd;
-     _Ki = Ki;
+void pidInit(float dt, float max, float min, float Kp, float Kd, float Ki){
+	_dt = (dt != 0) ? dt : 0.1;
+	_max = max;
+	_min = min;
+	_Kp = Kp;
+	_Kd = Kd;
+	_Ki = Ki;
+	_pre_error = 0;
+	_integral = 0;
 }
 
-              */
+float pidCalculate( float pv, float setpoint) {
+      // Calculate error
+      float error = setpoint - pv;
+
+      // Proportional term
+      float Pout = _Kp * error;
+
+      // Integral term
+      _integral += error * _dt;
+      float Iout = _Ki * _integral;
+
+      // Derivative term
+      float derivative = (error - _pre_error) / _dt;
+      float Dout = _Kd * derivative;
+
+      // Calculate total output
+      float output = Pout + Iout + Dout;
+
+      // Restrict to max/min
+      if( output > _max ) {
+          output = _max;
+      }
+      else if( output < _min ) {
+         output = _min;
+      }
+
+      // Save error to previous error
+      _pre_error = error;
+
+      return output;
+}
+
+
 
 
 

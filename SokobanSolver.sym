@@ -2,120 +2,132 @@
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__D0SetSensorLight_inline_main	6	1	0	4	9
 1	__DU0SetSensorLight_inline_main	5	1	4	4	6
-2	__D0main	6	1	8	4	46
+2	__D0main	6	1	8	4	68
 3	__CLSRMutex3	9	0	12	4	2
 4	__RLSBmutex3	9	0	16	4	4
-5	__signed_stack_002main	6	1	20	4	18
-6	__constValf0P8	10	0	24	4	1
-7	__signed_stack_001main	6	1	28	4	44
+5	__signed_stack_002main	6	1	20	4	34
+6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	2
+7	__signed_stack_001main	6	1	28	4	56
 8	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	32	4	3
 9	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	36	4	2
 10	__CLSWMutex3	9	0	40	4	2
 11	__CLSCSMutex3	9	0	44	4	2
-12	__main_7qG2_sen1Diff_7qG2_001	4	1	48	2	5
-13	__main_7qG2_threshold_lightsensor_7qG2_000	4	1	50	2	5
-14	__main_7qG2_minLightValue_7qG2_000	4	1	52	2	4
-15	__main_7qG2_maxLightValue_7qG2_000	4	1	54	2	4
-16	__main_7qG2_bSpeed_7qG2_001	4	1	56	2	4
-17	__main_7qG2_aSpeed_7qG2_001	4	1	58	2	4
-18	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	60	1	6
-19	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	61	1	6
-20	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	62	1	6
-21	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	63	1	3
-22	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	64	1	6
-23	____initialize_global_data_return	1	1	65	1	3
-24	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	66	1	15
-25	__constVal1	2	0	67	1	8
-26	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	68	1	6
-27	__constVal0	2	1	69	1	17
-28	__constVal32	2	0	70	1	6
-29	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	71	1	2
-30	__constVal96	2	0	72	1	2
-31	__constVal30	2	0	73	1	2
-32	__constVal63	2	0	74	1	2
-33	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	75	1	2
-34	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	76	1	4
-35	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	77	1	2
-36	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	78	1	2
-37	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	79	1	2
-38	__RLSBIterations3	1	1	80	1	4
-39	__RLSBytesCount3	1	1	81	1	8
-40	__zfmain	1	1	82	1	26
-41	__PFTmp	1	1	83	1	1
-42	__constVal2	2	0	84	1	3
-43	__constVal15	2	0	85	1	5
-44	__RLSBResult3	2	1	86	1	7
-45	____ReadLSBytes3_return	1	1	87	1	4
-46	__zfSetSensorLight_inline_main	1	1	88	1	6
-47	__ResetSensorTmp	1	1	89	1	2
-48	____ResetSensorSubroutine_return	1	1	90	1	6
-49	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	91	1	2
-50	__constVal3	2	0	92	1	3
-51	__ResetSensorPort	1	1	93	1	6
-52	__TextOutArgs	8	0	4	16	53
-53	__TextOutArgs.Result	2	1	96	1	53
-54	__TextOutArgs.Location	8	0	2	4	53
-55	__TextOutArgs.Location.X	4	1	100	2	53
-56	__TextOutArgs.Location.Y	4	1	102	2	53
-57	__TextOutArgs.Text	7	0	104	4	53
-58	__TextOutArgs.Text.Text_type	1	0	0	1	0
-59	__TextOutArgs.Options	5	1	108	4	53
-60	__CLSCSArgs3	8	0	3	4	4
-61	__CLSCSArgs3.Result	2	1	112	1	4
-62	__CLSCSArgs3.Port	1	1	113	1	4
-63	__CLSCSArgs3.BytesReady	1	1	114	1	4
-64	__CLSRArgs3	8	0	4	12	5
-65	__CLSRArgs3.Result	2	1	116	1	5
-66	__CLSRArgs3.Port	1	1	117	1	5
-67	__CLSRArgs3.Buffer	7	0	118	4	5
-68	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-69	__CLSRArgs3.BufferLen	1	1	120	1	5
+12	__main_7qG2_threshold_lightsensor1_7qG2_000	4	1	48	2	3
+13	__main_7qG2_threshold_lightsensor2_7qG2_000	4	1	50	2	3
+14	__main_7qG2_sensorDiff1_7qG2_001	4	1	52	2	2
+15	__main_7qG2_maxLightValue2_7qG2_000	4	1	54	2	5
+16	__main_7qG2_minLightValue2_7qG2_000	4	1	56	2	6
+17	__main_7qG2_maxLightValue1_7qG2_000	4	1	58	2	5
+18	__main_7qG2_minLightValue1_7qG2_000	4	1	60	2	6
+19	__main_7qG2_sensorDiff2_7qG2_001	4	1	62	2	2
+20	__main_7qG2_bSpeed_7qG2_001	4	1	64	2	6
+21	__main_7qG2_aSpeed_7qG2_001	4	1	66	2	6
+22	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	68	1	3
+23	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	69	1	15
+24	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	70	1	2
+25	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	71	1	4
+26	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	72	1	6
+27	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	73	1	6
+28	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	74	1	6
+29	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	75	1	6
+30	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	76	1	6
+31	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	77	1	2
+32	__constValNeg40	2	0	78	1	2
+33	__constVal63	2	0	79	1	4
+34	__constVal40	2	0	80	1	4
+35	__constVal32	2	0	81	1	12
+36	__constVal96	2	0	82	1	4
+37	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	83	1	2
+38	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	84	1	2
+39	__constValNeg1	2	0	85	1	2
+40	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	86	1	2
+41	__RLSBIterations3	1	1	87	1	4
+42	__RLSBytesCount3	1	1	88	1	8
+43	__zfmain	1	1	89	1	29
+44	__PFTmp	1	1	90	1	1
+45	__constVal2	2	0	91	1	3
+46	__constVal15	2	0	92	1	5
+47	__RLSBResult3	2	1	93	1	7
+48	____ReadLSBytes3_return	1	1	94	1	4
+49	____ResetSensorSubroutine_return	1	1	95	1	6
+50	__constVal3	2	0	96	1	5
+51	__ResetSensorPort	1	1	97	1	6
+52	__zfSetSensorLight_inline_main	1	1	98	1	6
+53	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	99	1	2
+54	____initialize_global_data_return	1	1	100	1	3
+55	__constVal1	2	0	101	1	18
+56	__constVal0	2	1	102	1	24
+57	__ResetSensorTmp	1	1	103	1	2
+58	__TextOutArgs	8	0	4	16	62
+59	__TextOutArgs.Result	2	1	104	1	62
+60	__TextOutArgs.Location	8	0	2	4	62
+61	__TextOutArgs.Location.X	4	1	108	2	62
+62	__TextOutArgs.Location.Y	4	1	110	2	62
+63	__TextOutArgs.Text	7	0	112	4	62
+64	__TextOutArgs.Text.Text_type	1	0	0	1	0
+65	__TextOutArgs.Options	5	1	116	4	62
+66	__CLSCSArgs3	8	0	3	4	4
+67	__CLSCSArgs3.Result	2	1	120	1	4
+68	__CLSCSArgs3.Port	1	1	121	1	4
+69	__CLSCSArgs3.BytesReady	1	1	122	1	4
 70	__CLSWArgs3	8	0	4	12	5
 71	__CLSWArgs3.Result	2	1	124	1	5
 72	__CLSWArgs3.Port	1	1	125	1	5
 73	__CLSWArgs3.Buffer	7	0	126	4	5
 74	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
 75	__CLSWArgs3.ReturnLen	1	1	128	1	5
-76	__constStr0012	7	0	130	4	1
-77	__constStr0012.__constStr0012_type	1	1	0	1	0
-78	__constStr0011	7	0	132	4	1
-79	__constStr0011.__constStr0011_type	1	1	0	1	0
-80	__constStr0010	7	0	134	4	3
-81	__constStr0010.__constStr0010_type	1	1	0	1	0
-82	__constStr0013	7	0	136	4	3
-83	__constStr0013.__constStr0013_type	1	1	0	1	0
-84	__RLSReadBuf3	7	0	138	4	10
-85	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-86	__constStr0015	7	0	140	4	1
-87	__constStr0015.__constStr0015_type	1	1	0	1	0
-88	__constStr0014	7	0	142	4	1
-89	__constStr0014.__constStr0014_type	1	1	0	1	0
-90	__constStr0009	7	0	144	4	1
-91	__constStr0009.__constStr0009_type	1	1	0	1	0
-92	__ArrHelper__main_244_1	7	0	146	4	10
-93	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
-94	__ArrHelper__main_244_2	7	0	148	4	4
-95	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
-96	__RLSLastGoodRead3	7	0	150	4	2
-97	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-98	__strbufmain	7	0	152	4	28
-99	__strbufmain.__strbufmain_type	1	0	0	1	0
-100	__strretvalmain	7	0	154	4	6
-101	__strretvalmain.__strretvalmain_type	1	0	0	1	0
-102	__ArrHelper__main_244_0	7	0	156	4	6
-103	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
-104	__RLSBbufLSWrite1	7	0	158	4	2
-105	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+76	__CLSRArgs3	8	0	4	12	5
+77	__CLSRArgs3.Result	2	1	132	1	5
+78	__CLSRArgs3.Port	1	1	133	1	5
+79	__CLSRArgs3.Buffer	7	0	134	4	5
+80	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+81	__CLSRArgs3.BufferLen	1	1	136	1	5
+82	__constStr0012	7	0	138	4	1
+83	__constStr0012.__constStr0012_type	1	1	0	1	0
+84	__constStr0013	7	0	140	4	1
+85	__constStr0013.__constStr0013_type	1	1	0	1	0
+86	__constStr0014	7	0	142	4	1
+87	__constStr0014.__constStr0014_type	1	1	0	1	0
+88	__constStr0017	7	0	144	4	1
+89	__constStr0017.__constStr0017_type	1	1	0	1	0
+90	__constStr0018	7	0	146	4	1
+91	__constStr0018.__constStr0018_type	1	1	0	1	0
+92	__constStr0015	7	0	148	4	3
+93	__constStr0015.__constStr0015_type	1	1	0	1	0
+94	__constStr0016	7	0	150	4	1
+95	__constStr0016.__constStr0016_type	1	1	0	1	0
+96	__constStr0011	7	0	152	4	1
+97	__constStr0011.__constStr0011_type	1	1	0	1	0
+98	__ArrHelper__main_244_2	7	0	154	4	8
+99	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+100	__RLSLastGoodRead3	7	0	156	4	2
+101	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+102	__ArrHelper__main_244_1	7	0	158	4	18
+103	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+104	__ArrHelper__main_244_0	7	0	160	4	10
+105	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+106	__RLSReadBuf3	7	0	162	4	10
+107	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+108	__constStr0009	7	0	164	4	1
+109	__constStr0009.__constStr0009_type	1	1	0	1	0
+110	__constStr0010	7	0	166	4	4
+111	__constStr0010.__constStr0010_type	1	1	0	1	0
+112	__RLSBbufLSWrite1	7	0	168	4	2
+113	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+114	__strbufmain	7	0	170	4	40
+115	__strbufmain.__strbufmain_type	1	0	0	1	0
+116	__strretvalmain	7	0	172	4	10
+117	__strretvalmain.__strretvalmain_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	7	0	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	8	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	7	2	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	7	2	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	8	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
-0	7	5	#line 7 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	8	5	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	9	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	29	0	#line 29 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	30	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	29	2	#line 29 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	29	2	#line 29 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	30	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	29	5	#line 29 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	30	5	#line 30 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	31	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	7	#line 3729 "NXCDefs.h"
 0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	9	#line 3729 "NXCDefs.h"
@@ -154,15 +166,15 @@ Clump	Line	PC	Source
 0	3695	42	#pragma macro 4
 0	3695	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4051	46	#line 4051 "NXCDefs.h"
+0	4392	46	#line 4392 "NXCDefs.h"
 0	3694	46	#line 3694 "NXCDefs.h"
 0	3732	46	#line 3732 "NXCDefs.h"
-0	8	46	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	8	46	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	9	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
-0	8	49	#line 8 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	9	49	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	10	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	30	46	#line 30 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	30	46	#line 30 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	31	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	30	49	#line 30 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	31	49	#line 31 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	32	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	51	#line 3729 "NXCDefs.h"
 0	3730	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	53	#line 3729 "NXCDefs.h"
@@ -201,15 +213,15 @@ Clump	Line	PC	Source
 0	3695	86	#pragma macro 4
 0	3695	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4118	90	#line 4118 "NXCDefs.h"
+0	4459	90	#line 4459 "NXCDefs.h"
 0	3694	90	#line 3694 "NXCDefs.h"
 0	3732	90	#line 3732 "NXCDefs.h"
-0	9	90	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	9	90	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	10	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	9	93	#line 9 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	10	93	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	11	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	31	90	#line 31 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	31	90	#line 31 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	32	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	31	93	#line 31 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	32	93	#line 32 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	33	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	95	#line 3729 "NXCDefs.h"
 0	3730	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	97	#line 3729 "NXCDefs.h"
@@ -248,12 +260,12 @@ Clump	Line	PC	Source
 0	3695	130	#pragma macro 4
 0	3695	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4185	134	#line 4185 "NXCDefs.h"
+0	4526	134	#line 4526 "NXCDefs.h"
 0	3694	134	#line 3694 "NXCDefs.h"
 0	3732	134	#line 3732 "NXCDefs.h"
-0	10	134	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	10	134	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	10	134	#line 10 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
+0	32	134	#line 32 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	32	134	#line 32 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	32	134	#line 32 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
 0	3768	134	#line 3768 "NXCDefs.h"
 0	3769	134		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal3
 0	3768	136	#line 3768 "NXCDefs.h"
@@ -296,477 +308,675 @@ Clump	Line	PC	Source
 0	3695	171	#pragma macro 4
 0	3695	171		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
 0	3695	173		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4290	175	#line 4290 "NXCDefs.h"
+0	4631	175	#line 4631 "NXCDefs.h"
 0	3694	175	#line 3694 "NXCDefs.h"
 0	3761	175	#line 3761 "NXCDefs.h"
 0	3768	175	#line 3768 "NXCDefs.h"
-0	12	175	#line 12 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	13	175	#line 13 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	14	175		set __main_7qG2_minLightValue_7qG2_000, 101
-0	13	178	#line 13 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	14	178	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	15	178		set __main_7qG2_maxLightValue_7qG2_000, 0
-0	14	181	#line 14 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	16	181	#line 16 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	17	181		set __main_7qG2_threshold_lightsensor_7qG2_000, 50
-0	16	184	#line 16 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	16	184	#line 16 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	17	184		set __D0main, 1
-0	18	187	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	187		tst 5, __zfmain, __D0main
-0	18	190	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	190		brtst 4, __NXC_Label_504, __zfmain
-0	18	193	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	193		getin __signed_stack_001main, __constVal0, 4
-0	18	197	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	18	197	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	197		mov __D0main, __main_7qG2_minLightValue_7qG2_000
-0	18	199	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	199		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	18	203	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	203		mov __D0main, __zfmain
-0	18	205	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	205		brtst 4, __NXC_Label_509, __zfmain
-0	18	208	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	208		getin __main_7qG2_minLightValue_7qG2_000, __constVal0, 4
-0	18	212	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	18	212	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	18	212	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	18	212	#line 18 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	212	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	212		getin __signed_stack_001main, __constVal0, 4
-0	19	216	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	216	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	216		mov __D0main, __main_7qG2_maxLightValue_7qG2_000
-0	19	218	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	218		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	19	222	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	222		mov __D0main, __zfmain
-0	19	224	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	224		brtst 4, __NXC_Label_514, __zfmain
-0	19	227	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	227		getin __main_7qG2_maxLightValue_7qG2_000, __constVal0, 4
-0	19	231	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	231	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	231	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	19	231	#line 19 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	231	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	231	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	231	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	20	231	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	21	231		add __signed_stack_001main, __main_7qG2_maxLightValue_7qG2_000, __main_7qG2_minLightValue_7qG2_000
-0	20	235	#line 20 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	22	235	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	22	235	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	23	235		div __main_7qG2_threshold_lightsensor_7qG2_000, __signed_stack_001main, __constVal2
-0	22	239	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	22	239	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	22	239	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	23	239		getin __signed_stack_001main, __constVal0, 4
-0	22	243	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	22	243	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	22	243	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	23	243		sub __signed_stack_001main, __signed_stack_001main, __main_7qG2_threshold_lightsensor_7qG2_000
-0	22	247	#line 22 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	24	247	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	24	247	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	25	247		mul __main_7qG2_sen1Diff_7qG2_001, __signed_stack_001main, __constValf0P8
-0	24	251	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	24	251	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	25	251		getin __signed_stack_001main, __constVal0, 4
-0	24	255	#line 24 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	25	255	#line 25 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	26	255		mov __D0main, __main_7qG2_threshold_lightsensor_7qG2_000
-0	25	257	#line 25 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	26	257		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	25	261	#line 25 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	26	261		mov __D0main, __zfmain
-0	26	263	#line 26 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	27	263		brtst 4, __NXC_Label_527, __zfmain
-0	27	266	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	27	266	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	28	266		mul __main_7qG2_sen1Diff_7qG2_001, __main_7qG2_sen1Diff_7qG2_001, __constVal2
-0	27	270	#line 27 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	29	270	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	29	270	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	29	270	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	29	270	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	29	270	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	30	270		sub __signed_stack_001main, __constVal0, __constVal30
-0	29	274	#line 29 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	30	274	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	30	274	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	31	274		sub __main_7qG2_aSpeed_7qG2_001, __signed_stack_001main, __main_7qG2_sen1Diff_7qG2_001
-0	30	278	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	30	278	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	30	278	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	30	278	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	30	278	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	31	278		sub __signed_stack_001main, __constVal0, __constVal30
-0	30	282	#line 30 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	32	282	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	32	282	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	282		add __main_7qG2_bSpeed_7qG2_001, __signed_stack_001main, __main_7qG2_sen1Diff_7qG2_001
-0	32	286	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	32	286	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	286		mov __signed_stack_001main, __main_7qG2_aSpeed_7qG2_001
-0	32	288	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	32	288	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	288		set __D0main, 0
-0	32	291	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	291		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	32	295	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	295		mov __D0main, __zfmain
-0	32	297	#line 32 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	297		brtst 4, __NXC_Label_536, __zfmain
-0	33	300	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	300		set __main_7qG2_aSpeed_7qG2_001, 0
-0	33	303	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	303	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	303	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	303	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	303		mov __signed_stack_001main, __main_7qG2_bSpeed_7qG2_001
-0	33	305	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	33	305	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	305		set __D0main, 0
-0	33	308	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	308		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	33	312	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	312		mov __D0main, __zfmain
-0	33	314	#line 33 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	314		brtst 4, __NXC_Label_541, __zfmain
-0	34	317	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	35	317		set __main_7qG2_bSpeed_7qG2_001, 0
-0	34	320	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	320	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	320	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	34	320	#line 34 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	35	320		mov __D0main, __main_7qG2_aSpeed_7qG2_001
-0	35	322	#line 35 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	36	322	#pragma macro 7
-0	36	322		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4545	345	#line 4545 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	35	345	#line 35 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	35	345	#line 35 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	36	345		mov __D0main, __main_7qG2_bSpeed_7qG2_001
-0	49	347	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	347	#pragma macro 7
-0	50	347		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4552	370	#line 4552 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	49	370	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	49	370	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	370		set __signed_stack_001main, 1
-0	49	373	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	49	373	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	373		set __signed_stack_002main, 60
-0	49	376	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	49	376	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	376		mov __ArrHelper__main_244_0, __constStr0009
-0	49	378	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	378		getin __D0main, __constVal0, 4
-0	49	382	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	382		numtostr __strretvalmain, __D0main
-0	49	385	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	385		mov __ArrHelper__main_244_1, __strretvalmain
-0	49	387	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	387		strcat __strbufmain, __constStr0010
-0	49	391	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	391		mov __ArrHelper__main_244_2, __strbufmain
-0	49	393	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	393		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
-0	49	398	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	398		mov __ArrHelper__main_244_1, __strbufmain
-0	49	400	#line 49 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	400		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
-0	50	405	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	405	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	405		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	50	407	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	407		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	50	409	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	409		set __TextOutArgs.Options, 0
-0	50	412	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	412		mov __TextOutArgs.Text, __strbufmain
-0	50	414	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	414		syscall 13, __TextOutArgs
-0	50	417	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	417	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	417	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	417	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	417	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	417		set __signed_stack_001main, 1
-0	50	420	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	420	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	420		set __signed_stack_002main, 50
-0	50	423	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	50	423	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	423		mov __ArrHelper__main_244_0, __constStr0011
-0	50	425	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	425		mov __D0main, __main_7qG2_threshold_lightsensor_7qG2_000
-0	50	427	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	427		numtostr __strretvalmain, __D0main
-0	50	430	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	430		mov __ArrHelper__main_244_1, __strretvalmain
-0	50	432	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	432		strcat __strbufmain, __constStr0010
-0	50	436	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	436		mov __ArrHelper__main_244_2, __strbufmain
-0	50	438	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	438		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
-0	50	443	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	443		mov __ArrHelper__main_244_1, __strbufmain
-0	50	445	#line 50 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	51	445		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
-0	52	450	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	52	450	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	450		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	52	452	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	452		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	52	454	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	454		set __TextOutArgs.Options, 0
-0	52	457	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	457		mov __TextOutArgs.Text, __strbufmain
-0	52	459	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	459		syscall 13, __TextOutArgs
-0	52	462	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	462		mov __D0main, __TextOutArgs.Result
-0	52	464	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	52	464	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	52	464	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	464		getin __signed_stack_001main, __constVal2, 4
-0	52	468	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	52	468	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	468		set __D0main, 23
-0	52	471	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	471		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	52	475	#line 52 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	475		mov __D0main, __zfmain
-0	53	477	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	54	477		brtst 4, __NXC_Label_562, __zfmain
-0	53	480	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	54	480		set __signed_stack_001main, 1
-0	53	483	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	483	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	54	483		set __signed_stack_002main, 1
-0	53	486	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	53	486	#line 53 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	54	486		strcat __strbufmain, __constStr0012
-0	54	490	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	54	490	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	55	490		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	54	492	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	55	492		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	54	494	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	55	494		set __TextOutArgs.Options, 0
-0	54	497	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	55	497		mov __TextOutArgs.Text, __strbufmain
-0	54	499	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	55	499		syscall 13, __TextOutArgs
-0	54	502	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	55	502		mov __D0main, __TextOutArgs.Result
-0	54	504	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	54	504	#line 54 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	56	504	#line 56 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	57	504		jmp __NXC_Label_567
-0	56	506	#line 56 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	57	506		set __signed_stack_001main, 1
-0	56	509	#line 56 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	56	509	#line 56 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	57	509		set __signed_stack_002main, 1
-0	56	512	#line 56 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	56	512	#line 56 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	57	512		strcat __strbufmain, __constStr0013
-0	57	516	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	57	516	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	58	516		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	57	518	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	58	518		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	57	520	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	58	520		set __TextOutArgs.Options, 0
-0	57	523	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	58	523		mov __TextOutArgs.Text, __strbufmain
-0	57	525	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	58	525		syscall 13, __TextOutArgs
-0	57	528	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	58	528		mov __D0main, __TextOutArgs.Result
-0	57	530	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	57	530	#line 57 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	59	530	#line 59 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	59	530	#line 59 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	60	530		getin __signed_stack_001main, __constVal1, 4
-0	59	534	#line 59 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	59	534	#line 59 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	60	534		set __D0main, 23
-0	59	537	#line 59 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	60	537		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	59	541	#line 59 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	60	541		mov __D0main, __zfmain
-0	60	543	#line 60 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	61	543		brtst 4, __NXC_Label_574, __zfmain
-0	60	546	#line 60 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	61	546		set __signed_stack_001main, 1
-0	60	549	#line 60 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	60	549	#line 60 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	61	549		set __signed_stack_002main, 15
-0	60	552	#line 60 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	60	552	#line 60 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	61	552		strcat __strbufmain, __constStr0014
-0	61	556	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	61	556	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	62	556		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	61	558	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	62	558		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	61	560	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	62	560		set __TextOutArgs.Options, 0
-0	61	563	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	62	563		mov __TextOutArgs.Text, __strbufmain
-0	61	565	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	62	565		syscall 13, __TextOutArgs
-0	61	568	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	62	568		mov __D0main, __TextOutArgs.Result
-0	61	570	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	61	570	#line 61 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	63	570	#line 63 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	64	570		jmp __NXC_Label_579
-0	63	572	#line 63 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	64	572		set __signed_stack_001main, 1
-0	63	575	#line 63 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	63	575	#line 63 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	64	575		set __signed_stack_002main, 15
-0	63	578	#line 63 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	63	578	#line 63 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	64	578		strcat __strbufmain, __constStr0013
-0	64	582	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	64	582	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	65	582		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	64	584	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	65	584		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	64	586	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	65	586		set __TextOutArgs.Options, 0
-0	64	589	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	65	589		mov __TextOutArgs.Text, __strbufmain
-0	64	591	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	65	591		syscall 13, __TextOutArgs
-0	64	594	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	65	594		mov __D0main, __TextOutArgs.Result
-0	64	596	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	64	596	#line 64 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	66	596	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	66	596	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	596		set __signed_stack_001main, 1
-0	66	599	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	66	599	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	599		set __signed_stack_002main, 45
-0	66	602	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	66	602	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	602	#pragma macro 26
-0	67	602		acquire __RLSBmutex3
-0	67	603		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	67	605		set __RLSBytesCount3, 1
-0	67	608		wait2 NA, __constVal15
-0	67	611		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	67	613		index __D0main, __RLSReadBuf3, 65535
-0	67	617		release __RLSBmutex3
-0	4828	618	#line 4828 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	66	618	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	618		numtostr __strretvalmain, __D0main
-0	66	621	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	621		mov __ArrHelper__main_244_0, __strretvalmain
-0	66	623	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	623		strcat __strbufmain, __constStr0010
-0	66	627	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	627		mov __ArrHelper__main_244_1, __strbufmain
-0	66	629	#line 66 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	67	629		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
-0	71	634	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	71	634	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	634		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	71	636	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	636		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	71	638	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	638		set __TextOutArgs.Options, 0
-0	71	641	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	641		mov __TextOutArgs.Text, __strbufmain
-0	71	643	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	643		syscall 13, __TextOutArgs
-0	71	646	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	646		mov __D0main, __TextOutArgs.Result
-0	71	648	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	71	648	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	71	648	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	71	648	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	648	#pragma macro 26
-0	72	648		acquire __RLSBmutex3
-0	72	649		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	72	651		set __RLSBytesCount3, 1
-0	72	654		wait2 NA, __constVal15
-0	72	657		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	72	659		index __D0main, __RLSReadBuf3, 65535
-0	72	663		release __RLSBmutex3
-0	4860	664	#line 4860 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	71	664	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	664		mov __signed_stack_001main, __D0main
-0	71	666	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	666		set __D0main, 9
-0	71	669	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	669		cmp 2, __zfmain, __signed_stack_001main, __D0main
-0	71	673	#line 71 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	673		mov __D0main, __zfmain
-0	72	675	#line 72 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	73	675		brtst 4, __NXC_Label_592, __zfmain
-0	72	678	#line 72 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	73	678		set __signed_stack_001main, 1
-0	72	681	#line 72 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	681	#line 72 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	73	681		set __signed_stack_002main, 30
-0	72	684	#line 72 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	72	684	#line 72 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	73	684		strcat __strbufmain, __constStr0015
-0	73	688	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	73	688	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	74	688		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	73	690	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	74	690		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	73	692	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	74	692		set __TextOutArgs.Options, 0
-0	73	695	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	74	695		mov __TextOutArgs.Text, __strbufmain
-0	73	697	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	74	697		syscall 13, __TextOutArgs
-0	73	700	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	74	700		mov __D0main, __TextOutArgs.Result
-0	73	702	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	73	702	#line 73 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	75	702	#line 75 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	76	702		jmp __NXC_Label_597
-0	75	704	#line 75 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	76	704		set __signed_stack_001main, 1
-0	75	707	#line 75 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	75	707	#line 75 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	76	707		set __signed_stack_002main, 30
-0	75	710	#line 75 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	75	710	#line 75 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	76	710		strcat __strbufmain, __constStr0013
-0	76	714	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	76	714	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	77	714		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	76	716	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	77	716		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	76	718	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	77	718		set __TextOutArgs.Options, 0
-0	76	721	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	77	721		mov __TextOutArgs.Text, __strbufmain
-0	76	723	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	77	723		syscall 13, __TextOutArgs
-0	76	726	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	77	726		mov __D0main, __TextOutArgs.Result
-0	76	728	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	76	728	#line 76 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	81	728	#line 81 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	83	728	#line 83 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	84	728		jmp __NXC_Label_503
-0	83	730	#line 83 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-0	84	730		exit -1, -1
+0	34	175	#line 34 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	35	175	#line 35 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	36	175		set __main_7qG2_minLightValue2_7qG2_000, 1000
+0	35	178	#line 35 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	36	178	#line 36 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	37	178		mov __main_7qG2_maxLightValue2_7qG2_000, __constValNeg1
+0	36	180	#line 36 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	37	180	#line 37 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	38	180		set __main_7qG2_minLightValue1_7qG2_000, 1000
+0	37	183	#line 37 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	38	183	#line 38 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	39	183		mov __main_7qG2_maxLightValue1_7qG2_000, __constValNeg1
+0	38	185	#line 38 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	39	185	#line 39 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	40	185		set __main_7qG2_threshold_lightsensor1_7qG2_000, 50
+0	39	188	#line 39 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	41	188	#line 41 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	42	188		set __main_7qG2_threshold_lightsensor2_7qG2_000, 50
+0	41	191	#line 41 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	41	191	#line 41 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	42	191		set __D0main, 1
+0	43	194	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	194		tst 5, __zfmain, __D0main
+0	43	197	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	197		brtst 4, __NXC_Label_523, __zfmain
+0	43	200	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	200		getin __signed_stack_001main, __constVal0, 4
+0	43	204	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	43	204	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	204		mov __D0main, __main_7qG2_minLightValue1_7qG2_000
+0	43	206	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	206		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	43	210	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	210		mov __D0main, __zfmain
+0	43	212	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	212		brtst 4, __NXC_Label_528, __zfmain
+0	43	215	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	215		getin __main_7qG2_minLightValue1_7qG2_000, __constVal0, 4
+0	43	219	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	43	219	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	43	219	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	43	219	#line 43 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	219	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	219		getin __signed_stack_001main, __constVal0, 4
+0	44	223	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	223	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	223		mov __D0main, __main_7qG2_maxLightValue1_7qG2_000
+0	44	225	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	225		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	44	229	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	229		mov __D0main, __zfmain
+0	44	231	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	231		brtst 4, __NXC_Label_533, __zfmain
+0	44	234	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	234		getin __main_7qG2_maxLightValue1_7qG2_000, __constVal0, 4
+0	44	238	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	238	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	238	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	44	238	#line 44 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	238	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	238		getin __signed_stack_001main, __constVal1, 4
+0	45	242	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	242	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	242		mov __D0main, __main_7qG2_minLightValue2_7qG2_000
+0	45	244	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	244		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	45	248	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	248		mov __D0main, __zfmain
+0	45	250	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	250		brtst 4, __NXC_Label_538, __zfmain
+0	45	253	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	253		getin __main_7qG2_minLightValue2_7qG2_000, __constVal1, 4
+0	45	257	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	257	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	257	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	45	257	#line 45 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	257	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	257		getin __signed_stack_001main, __constVal1, 4
+0	46	261	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	261	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	261		mov __D0main, __main_7qG2_maxLightValue2_7qG2_000
+0	46	263	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	263		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	46	267	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	267		mov __D0main, __zfmain
+0	46	269	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	269		brtst 4, __NXC_Label_543, __zfmain
+0	46	272	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	272		getin __main_7qG2_maxLightValue2_7qG2_000, __constVal1, 4
+0	46	276	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	276	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	276	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	46	276	#line 46 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	276	#line 47 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	276	#line 47 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	276	#line 47 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	47	276	#line 47 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	276		add __signed_stack_001main, __main_7qG2_maxLightValue1_7qG2_000, __main_7qG2_minLightValue1_7qG2_000
+0	47	280	#line 47 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	280	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	280	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	49	280		div __main_7qG2_threshold_lightsensor1_7qG2_000, __signed_stack_001main, __constVal2
+0	48	284	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	284	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	284	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	284	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	284	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	48	284	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	49	284		add __signed_stack_001main, __main_7qG2_maxLightValue2_7qG2_000, __main_7qG2_minLightValue2_7qG2_000
+0	48	288	#line 48 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	50	288	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	50	288	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	288		div __main_7qG2_threshold_lightsensor2_7qG2_000, __signed_stack_001main, __constVal2
+0	50	292	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	50	292	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	50	292	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	292		mov __signed_stack_001main, __main_7qG2_threshold_lightsensor1_7qG2_000
+0	50	294	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	50	294	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	294		getin __D0main, __constVal0, 4
+0	50	298	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	298		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	50	302	#line 50 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	302	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	302	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	52	302		mul __main_7qG2_sensorDiff1_7qG2_001, __signed_stack_001main, __constVal1
+0	51	306	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	306	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	52	306		mov __signed_stack_001main, __main_7qG2_threshold_lightsensor2_7qG2_000
+0	51	308	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	51	308	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	52	308		getin __D0main, __constVal1, 4
+0	51	312	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	52	312		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	51	316	#line 51 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	54	316	#line 54 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	54	316	#line 54 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	55	316		mul __main_7qG2_sensorDiff2_7qG2_001, __signed_stack_001main, __constVal1
+0	54	320	#line 54 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	54	320	#line 54 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	54	320	#line 54 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	55	320	#line 55 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	55	320	#line 55 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	56	320		add __main_7qG2_aSpeed_7qG2_001, __constVal40, __main_7qG2_sensorDiff1_7qG2_001
+0	55	324	#line 55 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	55	324	#line 55 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	55	324	#line 55 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	57	324	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	57	324	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	324		add __main_7qG2_bSpeed_7qG2_001, __constVal40, __main_7qG2_sensorDiff2_7qG2_001
+0	57	328	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	57	328	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	328		mov __signed_stack_001main, __main_7qG2_aSpeed_7qG2_001
+0	57	330	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	57	330	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	330		set __D0main, 0
+0	57	333	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	333		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	57	337	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	337		mov __D0main, __zfmain
+0	57	339	#line 57 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	339		brtst 4, __NXC_Label_568, __zfmain
+0	58	342	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	59	342		set __main_7qG2_aSpeed_7qG2_001, 0
+0	58	345	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	345	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	345	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	345	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	59	345		mov __signed_stack_001main, __main_7qG2_bSpeed_7qG2_001
+0	58	347	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	58	347	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	59	347		set __D0main, 0
+0	58	350	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	59	350		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	58	354	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	59	354		mov __D0main, __zfmain
+0	58	356	#line 58 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	59	356		brtst 4, __NXC_Label_573, __zfmain
+0	62	359	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	359		set __main_7qG2_bSpeed_7qG2_001, 0
+0	62	362	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	362	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	362	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	362	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	362		set __signed_stack_001main, 20
+0	62	365	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	365	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	365		getin __signed_stack_002main, __constVal1, 4
+0	62	369	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	369	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	369	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	369		sub __signed_stack_002main, __signed_stack_002main, __main_7qG2_minLightValue2_7qG2_000
+0	62	373	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	373	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	373	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	373		mul __signed_stack_002main, __signed_stack_002main, __constVal40
+0	62	377	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	377	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	377	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	377	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	62	377	#line 62 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	377		sub __D0main, __main_7qG2_maxLightValue2_7qG2_000, __main_7qG2_minLightValue2_7qG2_000
+0	63	381	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	64	381		div __D0main, __signed_stack_002main, __D0main
+0	63	385	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	64	385		add __main_7qG2_bSpeed_7qG2_001, __signed_stack_001main, __D0main
+0	63	389	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	389	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	389	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	389	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	64	389		set __signed_stack_001main, 20
+0	63	392	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	392	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	64	392		getin __signed_stack_002main, __constVal0, 4
+0	63	396	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	396	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	396	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	64	396		sub __signed_stack_002main, __signed_stack_002main, __main_7qG2_minLightValue1_7qG2_000
+0	63	400	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	400	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	400	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	64	400		mul __signed_stack_002main, __signed_stack_002main, __constVal40
+0	63	404	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	404	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	404	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	404	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	63	404	#line 63 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	64	404		sub __D0main, __main_7qG2_maxLightValue1_7qG2_000, __main_7qG2_minLightValue1_7qG2_000
+0	65	408	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	408		div __D0main, __signed_stack_002main, __D0main
+0	65	412	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	412		add __main_7qG2_aSpeed_7qG2_001, __signed_stack_001main, __D0main
+0	65	416	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	65	416	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	65	416	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	65	416	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	65	416	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	65	416	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	65	416	#line 65 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	416		sub __D0main, __constVal0, __main_7qG2_aSpeed_7qG2_001
+0	66	420	#line 66 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	67	420	#pragma macro 7
+0	67	420		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5068	443	#line 5068 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	443	#line 66 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	443	#line 66 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	443	#line 66 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	443	#line 66 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	66	443	#line 66 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	67	443		sub __D0main, __constVal0, __main_7qG2_bSpeed_7qG2_001
+0	68	447	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	447	#pragma macro 7
+0	69	447		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5081	470	#line 5081 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	68	470	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	68	470	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	470		set __signed_stack_001main, 1
+0	68	473	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	68	473	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	473		set __signed_stack_002main, 60
+0	68	476	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	68	476	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	476		mov __ArrHelper__main_244_0, __constStr0009
+0	68	478	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	478		getin __D0main, __constVal0, 4
+0	68	482	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	482		numtostr __strretvalmain, __D0main
+0	68	485	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	485		mov __ArrHelper__main_244_1, __strretvalmain
+0	68	487	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	487		strcat __strbufmain, __constStr0010
+0	68	491	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	491		mov __ArrHelper__main_244_2, __strbufmain
+0	68	493	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	493		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	68	498	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	498		mov __ArrHelper__main_244_1, __strbufmain
+0	68	500	#line 68 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	500		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	69	505	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	505	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	505		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	69	507	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	507		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	69	509	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	509		set __TextOutArgs.Options, 0
+0	69	512	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	512		mov __TextOutArgs.Text, __strbufmain
+0	69	514	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	514		syscall 13, __TextOutArgs
+0	69	517	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	517	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	517	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	517	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	517	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	517		set __signed_stack_001main, 1
+0	69	520	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	520	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	520		set __signed_stack_002main, 50
+0	69	523	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	69	523	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	523		mov __ArrHelper__main_244_0, __constStr0011
+0	69	525	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	525		getin __D0main, __constVal1, 4
+0	69	529	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	529		numtostr __strretvalmain, __D0main
+0	69	532	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	532		mov __ArrHelper__main_244_1, __strretvalmain
+0	69	534	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	534		strcat __strbufmain, __constStr0010
+0	69	538	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	538		mov __ArrHelper__main_244_2, __strbufmain
+0	69	540	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	540		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	69	545	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	545		mov __ArrHelper__main_244_1, __strbufmain
+0	69	547	#line 69 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	547		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	70	552	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	552	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	552		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	70	554	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	554		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	70	556	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	556		set __TextOutArgs.Options, 0
+0	70	559	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	559		mov __TextOutArgs.Text, __strbufmain
+0	70	561	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	561		syscall 13, __TextOutArgs
+0	70	564	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	564	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	564	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	564	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	564	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	564		set __signed_stack_001main, 1
+0	70	567	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	567	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	567		set __signed_stack_002main, 40
+0	70	570	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	70	570	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	570		mov __ArrHelper__main_244_0, __constStr0012
+0	70	572	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	572		mov __D0main, __main_7qG2_aSpeed_7qG2_001
+0	70	574	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	574		numtostr __strretvalmain, __D0main
+0	70	577	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	577		mov __ArrHelper__main_244_1, __strretvalmain
+0	70	579	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	579		strcat __strbufmain, __constStr0010
+0	70	583	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	583		mov __ArrHelper__main_244_2, __strbufmain
+0	70	585	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	585		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	70	590	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	590		mov __ArrHelper__main_244_1, __strbufmain
+0	70	592	#line 70 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	592		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	71	597	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	597	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	597		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	71	599	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	599		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	71	601	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	601		set __TextOutArgs.Options, 0
+0	71	604	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	604		mov __TextOutArgs.Text, __strbufmain
+0	71	606	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	606		syscall 13, __TextOutArgs
+0	71	609	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	609	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	609	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	609	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	609		set __signed_stack_001main, 1
+0	71	612	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	612	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	612		set __signed_stack_002main, 30
+0	71	615	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	71	615	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	615		mov __ArrHelper__main_244_0, __constStr0013
+0	71	617	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	617		mov __D0main, __main_7qG2_bSpeed_7qG2_001
+0	71	619	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	619		numtostr __strretvalmain, __D0main
+0	71	622	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	622		mov __ArrHelper__main_244_1, __strretvalmain
+0	71	624	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	624		strcat __strbufmain, __constStr0010
+0	71	628	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	628		mov __ArrHelper__main_244_2, __strbufmain
+0	71	630	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	630		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	71	635	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	635		mov __ArrHelper__main_244_1, __strbufmain
+0	71	637	#line 71 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	72	637		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	73	642	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	73	642	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	642		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	73	644	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	644		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	73	646	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	646		set __TextOutArgs.Options, 0
+0	73	649	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	649		mov __TextOutArgs.Text, __strbufmain
+0	73	651	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	651		syscall 13, __TextOutArgs
+0	73	654	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	654		mov __D0main, __TextOutArgs.Result
+0	73	656	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	73	656	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	73	656	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	656		getin __signed_stack_001main, __constVal2, 4
+0	73	660	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	73	660	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	660		set __D0main, 35
+0	73	663	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	663		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	73	667	#line 73 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	667		mov __D0main, __zfmain
+0	74	669	#line 74 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	669		brtst 4, __NXC_Label_622, __zfmain
+0	74	672	#line 74 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	672		set __signed_stack_001main, 1
+0	74	675	#line 74 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	675	#line 74 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	675		set __signed_stack_002main, 1
+0	74	678	#line 74 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	74	678	#line 74 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	678		strcat __strbufmain, __constStr0014
+0	75	682	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	682	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	682		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	75	684	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	684		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	75	686	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	686		set __TextOutArgs.Options, 0
+0	75	689	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	689		mov __TextOutArgs.Text, __strbufmain
+0	75	691	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	691		syscall 13, __TextOutArgs
+0	75	694	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	694	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	694	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	75	694	#line 75 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	694		mov __D0main, __constValNeg40
+0	76	696	#line 76 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	77	696	#pragma macro 7
+0	77	696		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5331	719	#line 5331 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	719	#line 76 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	76	719	#line 76 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	77	719		mov __D0main, __constValNeg40
+0	77	721	#line 77 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	78	721	#pragma macro 7
+0	78	721		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5338	744	#line 5338 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	77	744	#line 77 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	77	744	#line 77 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	78	744		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	77	747	#line 77 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	7921	747	#line 7921 "NXCDefs.h"
+0	7922	747		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	750	#line 7921 "NXCDefs.h"
+0	78	750	#line 78 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	80	750	#line 80 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	81	750		jmp __NXC_Label_633
+0	80	752	#line 80 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	81	752		set __signed_stack_001main, 1
+0	80	755	#line 80 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	80	755	#line 80 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	81	755		set __signed_stack_002main, 1
+0	80	758	#line 80 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	80	758	#line 80 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	81	758		strcat __strbufmain, __constStr0015
+0	81	762	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	81	762	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	82	762		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	81	764	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	82	764		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	81	766	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	82	766		set __TextOutArgs.Options, 0
+0	81	769	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	82	769		mov __TextOutArgs.Text, __strbufmain
+0	81	771	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	82	771		syscall 13, __TextOutArgs
+0	81	774	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	82	774		mov __D0main, __TextOutArgs.Result
+0	81	776	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	81	776	#line 81 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	83	776	#line 83 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	83	776	#line 83 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	84	776		getin __signed_stack_001main, __constVal1, 4
+0	83	780	#line 83 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	83	780	#line 83 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	84	780		set __D0main, 35
+0	83	783	#line 83 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	84	783		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	83	787	#line 83 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	84	787		mov __D0main, __zfmain
+0	84	789	#line 84 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	85	789		brtst 4, __NXC_Label_640, __zfmain
+0	84	792	#line 84 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	85	792		set __signed_stack_001main, 1
+0	84	795	#line 84 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	84	795	#line 84 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	85	795		set __signed_stack_002main, 20
+0	84	798	#line 84 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	84	798	#line 84 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	85	798		strcat __strbufmain, __constStr0016
+0	85	802	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	85	802	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	86	802		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	85	804	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	86	804		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	85	806	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	86	806		set __TextOutArgs.Options, 0
+0	85	809	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	86	809		mov __TextOutArgs.Text, __strbufmain
+0	85	811	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	86	811		syscall 13, __TextOutArgs
+0	85	814	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	86	814		mov __D0main, __TextOutArgs.Result
+0	85	816	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	85	816	#line 85 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	87	816	#line 87 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	88	816		jmp __NXC_Label_645
+0	87	818	#line 87 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	88	818		set __signed_stack_001main, 1
+0	87	821	#line 87 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	87	821	#line 87 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	88	821		set __signed_stack_002main, 20
+0	87	824	#line 87 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	87	824	#line 87 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	88	824		strcat __strbufmain, __constStr0015
+0	88	828	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	88	828	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	89	828		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	88	830	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	89	830		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	88	832	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	89	832		set __TextOutArgs.Options, 0
+0	88	835	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	89	835		mov __TextOutArgs.Text, __strbufmain
+0	88	837	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	89	837		syscall 13, __TextOutArgs
+0	88	840	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	89	840		mov __D0main, __TextOutArgs.Result
+0	88	842	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	88	842	#line 88 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	90	842	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	90	842	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	842		set __signed_stack_001main, 1
+0	90	845	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	90	845	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	845		set __signed_stack_002main, 45
+0	90	848	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	90	848	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	848	#pragma macro 26
+0	91	848		acquire __RLSBmutex3
+0	91	849		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	91	851		set __RLSBytesCount3, 1
+0	91	854		wait2 NA, __constVal15
+0	91	857		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	91	859		index __D0main, __RLSReadBuf3, 65535
+0	91	863		release __RLSBmutex3
+0	5484	864	#line 5484 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	90	864	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	864		numtostr __strretvalmain, __D0main
+0	90	867	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	867		mov __ArrHelper__main_244_0, __strretvalmain
+0	90	869	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	869		strcat __strbufmain, __constStr0017
+0	90	873	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	873		mov __ArrHelper__main_244_1, __strbufmain
+0	90	875	#line 90 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	91	875		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	95	880	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	95	880	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	880		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	95	882	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	882		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	95	884	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	884		set __TextOutArgs.Options, 0
+0	95	887	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	887		mov __TextOutArgs.Text, __strbufmain
+0	95	889	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	889		syscall 13, __TextOutArgs
+0	95	892	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	892		mov __D0main, __TextOutArgs.Result
+0	95	894	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	95	894	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	95	894	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	95	894	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	894	#pragma macro 26
+0	96	894		acquire __RLSBmutex3
+0	96	895		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	96	897		set __RLSBytesCount3, 1
+0	96	900		wait2 NA, __constVal15
+0	96	903		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	96	905		index __D0main, __RLSReadBuf3, 65535
+0	96	909		release __RLSBmutex3
+0	5516	910	#line 5516 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	95	910	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	910		mov __signed_stack_001main, __D0main
+0	95	912	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	912		set __D0main, 9
+0	95	915	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	915		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	95	919	#line 95 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	919		mov __D0main, __zfmain
+0	96	921	#line 96 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	97	921		brtst 4, __NXC_Label_658, __zfmain
+0	96	924	#line 96 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	97	924		set __signed_stack_001main, 1
+0	96	927	#line 96 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	927	#line 96 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	97	927		set __signed_stack_002main, 30
+0	96	930	#line 96 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	96	930	#line 96 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	97	930		strcat __strbufmain, __constStr0018
+0	97	934	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	97	934	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	98	934		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	97	936	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	98	936		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	97	938	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	98	938		set __TextOutArgs.Options, 0
+0	97	941	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	98	941		mov __TextOutArgs.Text, __strbufmain
+0	97	943	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	98	943		syscall 13, __TextOutArgs
+0	97	946	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	98	946		mov __D0main, __TextOutArgs.Result
+0	97	948	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	97	948	#line 97 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	99	948	#line 99 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	100	948		jmp __NXC_Label_663
+0	99	950	#line 99 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	100	950		set __signed_stack_001main, 1
+0	99	953	#line 99 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	99	953	#line 99 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	100	953		set __signed_stack_002main, 30
+0	99	956	#line 99 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	99	956	#line 99 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	100	956		strcat __strbufmain, __constStr0015
+0	100	960	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	100	960	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	101	960		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	100	962	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	101	962		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	100	964	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	101	964		set __TextOutArgs.Options, 0
+0	100	967	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	101	967		mov __TextOutArgs.Text, __strbufmain
+0	100	969	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	101	969		syscall 13, __TextOutArgs
+0	100	972	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	101	972		mov __D0main, __TextOutArgs.Result
+0	100	974	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	100	974	#line 100 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	105	974	#line 105 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	107	974	#line 107 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	108	974		jmp __NXC_Label_522
+0	107	976	#line 107 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+0	108	976		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -813,11 +1023,11 @@ Clump	Line	PC	Source
 2	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
 2	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
 2	5809	83		subret ____ReadLSBytes3_return
-3	148	0	#line 148 "C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc"
-3	149	0		subret ____initialize_global_data_return
+3	192	0	#line 192 "C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc"
+3	193	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc
-1	__ResetSensorSubroutine	733	NXTDefs.h
-2	__ReadLSBytes3	746	NXTDefs.h
-3	__initialize_global_data	831	C:\Users\Jannis\Documents\ScieboCloud\Master\Artificial Intelligence\Sokoban\SokobanSolver.nxc
+0	main	0	C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc
+1	__ResetSensorSubroutine	979	NXTDefs.h
+2	__ReadLSBytes3	992	NXTDefs.h
+3	__initialize_global_data	1077	C:\Users\bened\Documents\SDU\1. Semester\Introduction to Artificial Intelligence\github\SokobanSolver.nxc
