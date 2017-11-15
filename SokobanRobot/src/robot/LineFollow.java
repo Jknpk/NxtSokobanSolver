@@ -11,6 +11,7 @@ import lejos.util.PIDController;
 
 public class LineFollow {
 
+	// Sensors
 	static final LightSensor lightRight = new LightSensor(SensorPort.S1);
 	static final LightSensor lightLeft = new LightSensor(SensorPort.S2);
 	static final LightSensor lightFront = new LightSensor(SensorPort.S3);
@@ -25,14 +26,18 @@ public class LineFollow {
 	static int lightValueMaxFront = 0;
 	
 	// Constants
-	static int speed = 200;
-	static final int blackPuffer = 4;
+	static final int DEFAULT_SPEED = 200;
+	static final int TURN_ANGLE_90 = 180;
+	static final int TURN_ANGLE_180 = 330;
+	static final int LIGHT_FRONT_BLACK = 85;
+	static final double DIFFERENCE_SCALAR = 0.8;
 	
 	public static void main(String[] args) {
 		// initialize
-		
-		rightMotor.setSpeed(speed);
-		leftMotor.setSpeed(speed);
+		rightMotor.setAcceleration(5980);
+		rightMotor.setAcceleration(5980);
+		rightMotor.setSpeed(DEFAULT_SPEED);
+		leftMotor.setSpeed(DEFAULT_SPEED);
 		initializeLightSensors();
 		//startCalibration();
 		
@@ -60,11 +65,13 @@ public class LineFollow {
 //		rightMotor.stop();
 //		//LCD.drawString("stop my code", 0, 7);
 		
-		moveForward(3, false);
+		
+		
 		LCD.drawString("Moved forward 1 field!", 0, 7);
 		
 		while(true) {
-			
+			moveForward(3, false);
+			turnAround();
 		}
 	}
 	
@@ -94,8 +101,8 @@ public class LineFollow {
 	}
 	
 	private static void startCalibration() {
-		rightMotor.setSpeed(speed);
-		leftMotor.setSpeed(speed);
+		rightMotor.setSpeed(DEFAULT_SPEED);
+		leftMotor.setSpeed(DEFAULT_SPEED);
 		rightMotor.rotate(-580, true);
 		leftMotor.rotate(580, true);
 		while(rightMotor.isMoving() || leftMotor.isMoving()) {
@@ -104,27 +111,13 @@ public class LineFollow {
 	}
 	
 	private static void moveForward(int numOfFields, boolean hasCan) {
-		// Start motors
-		// find line
-		// follow line
-		// stop motors when line is hit
 		calibrateLightSensors();
 		for(int i = 0; i < numOfFields; i++) {
-			
-			// get a bit forward to pass current line
-//			try {
-//				Thread.sleep(500);
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();
-//			}
-			
-//			rightMotor.rotate(-150, true);
-//			leftMotor.rotate(-150);
 			
 			rightMotor.backward();
 			leftMotor.backward();
 			
-			while(lightFront.getLightValue() < 80)
+			while(lightFront.getLightValue() < LIGHT_FRONT_BLACK)
 			{
 				calibrateLightSensors();
 				try {
@@ -151,20 +144,32 @@ public class LineFollow {
 		leftMotor.stop();
 	}
 	
+	private static void turnLeft() {
+		leftMotor.setSpeed(DEFAULT_SPEED);
+		rightMotor.setSpeed(DEFAULT_SPEED);
+		leftMotor.rotate(TURN_ANGLE_90, true);
+		rightMotor.rotate(-TURN_ANGLE_90);
+	}
+	
+	private static void turnRight() {
+		rightMotor.setSpeed(DEFAULT_SPEED);
+		leftMotor.setSpeed(DEFAULT_SPEED);
+		rightMotor.rotate(TURN_ANGLE_90, true);
+		leftMotor.rotate(-TURN_ANGLE_90);
+	}
+	
+	private static void turnAround() {
+		leftMotor.setSpeed(DEFAULT_SPEED);
+		rightMotor.setSpeed(DEFAULT_SPEED);
+		leftMotor.rotate(TURN_ANGLE_180, true);
+		rightMotor.rotate(-TURN_ANGLE_180);
+	}
 	// negative difference should make robot turn left
 	// positive difference should turn robot to the right
-	private static void controlSpeed(int difference) {
+	private static void controlSpeed(int difference) {		
+		difference *= DIFFERENCE_SCALAR;
 		
-//		int pidVal = pid.doPID(difference);
-//		
-//		//difference *= 2;
-//		
-//		if(pidVal > speed) 
-//			pidVal = speed;
-//		else if (pidVal < -speed)
-//			pidVal = -speed;
-		
-		leftMotor.setSpeed(speed + difference);
-		rightMotor.setSpeed(speed - difference);
+		leftMotor.setSpeed(DEFAULT_SPEED + difference);
+		rightMotor.setSpeed(DEFAULT_SPEED - difference);
 	}
 }
