@@ -1,29 +1,18 @@
 package robot;
 
-import java.util.Date;
+import java.io.File;
+import java.io.FileInputStream;
 
-//import javax.microedition.lcdui.Display;
-
-// Two Guys one Cake
-// SOS Dessert Alert
-// Cake at Baker street 221b
-
-// Rask's best cake bakers
-
-//Bakers hate that trick: Selfmade cake!
-
-//Hot cake for hot chicks, cum and enjoy!
-
-// Wolle Kuchen kaufen?
-// Wolle Rosen kaufen? do you 
-
+import lejos.nxt.Button;
 import lejos.nxt.LCD;
 import lejos.nxt.LightSensor;
 import lejos.nxt.Motor;
 import lejos.nxt.SensorPort;
 import lejos.nxt.Sound;
 import lejos.robotics.RegulatedMotor;
+import lejos.util.Delay;
 
+enum Orientation{Top, Right, Down, Left };
 public class LineFollow {
 
 	// Sensors
@@ -40,12 +29,12 @@ public class LineFollow {
 	static int lightValueMinFront = 100;
 	static int lightValueMaxFront = 0;
 	
-	// Constants								// Big Robot Values
-	static final int DEFAULT_SPEED = 400;		// 200
-	static final int TURN_ANGLE_90 = 160;		// 180, 150
-	static final int TURN_ANGLE_180 = 270;		// 330
-	static final int LIGHT_FRONT_BLACK = 85;	// 85
-	static final double DIFFERENCE_SCALAR = 0.8;// 0.8
+	// Constants								// GREAT RESULTS!!!			// Big Robot Values
+	static final int DEFAULT_SPEED = 400;		// 400						// 200
+	static final int TURN_ANGLE_90 = 160;		// 160						// 180, 150
+	static final int TURN_ANGLE_180 = 310;		// 310						// 330
+	static final int LIGHT_FRONT_BLACK = 85;	// 85						// 85
+	static final double DIFFERENCE_SCALAR = 0.8;// 0.8						// 0.8
 	
 	public static void main(String[] args) {
 		// initialize
@@ -54,6 +43,81 @@ public class LineFollow {
 		rightMotor.setSpeed(DEFAULT_SPEED);
 		leftMotor.setSpeed(DEFAULT_SPEED);
 		initializeLightSensors();
+		
+		
+		String inputFile = "input.txt";
+		String route = readRoute(inputFile);
+		Orientation robotOrientation = Orientation.Top;
+		Sound.beep();
+		Sound.beep();
+		
+		LCD.drawString(route, 1, 1, false);
+		Button.waitForAnyPress();
+		
+		int i = 0;
+		int j = 0;
+		char currentChar = ' ';
+		char nextChar = ' ';
+
+		while (true) {
+			try {
+				currentChar = route.charAt(i);
+			} catch (Exception e) {
+				break;
+			}
+			j = 0;
+			while (true) {
+				j++;
+				try {
+					nextChar = route.charAt(i + j);
+				} catch (Exception e) {
+					j--;
+					break;
+				}
+				if (nextChar != currentChar) {
+					j--;
+					break;
+				}
+			}
+
+			//System.out.println(j + 1 + " times " + currentChar);
+			
+			boolean hasCan = false;
+			if(currentChar > 64 && currentChar < 91) {
+				// Upper case
+				hasCan = true;
+			}
+			
+			String lowChar = "" + currentChar;
+			lowChar = lowChar.toLowerCase();
+			char currentLowChar = lowChar.charAt(0);
+			
+			robotOrientation = executeTurn(currentLowChar, robotOrientation, j + 1 , hasCan);
+			if (robotOrientation == null) {
+				// Shouldn't be the case
+				System.exit(0);
+			}
+			
+			
+			
+			
+			
+			i = i + j + 1;
+		}
+		
+		
+		
+		
+		
+		/*for(char c : route.toCharArray()) {
+			// execute turn			
+			
+			
+			
+			
+
+		}
+		*/
 		//startCalibration();
 		
 //		LCD.drawString("Min Left:  " + lightLeft.getLow(), 0, 0);
@@ -80,11 +144,9 @@ public class LineFollow {
 //		rightMotor.stop();
 //		//LCD.drawString("stop my code", 0, 7);
 		
+		//LCD.drawString("Moved forward 1 field!", 0, 7);
 		
-		
-		LCD.drawString("Moved forward 1 field!", 0, 7);
-		
-		while(true) {
+		/*while(true) {
 			moveForward(2, false);
 			turnLeft();
 			moveForward(1, false);
@@ -95,6 +157,9 @@ public class LineFollow {
 			turnRight();
 			moveForward(3, false);
 		}
+		*/
+		
+		
 	}
 	
 	private static void initializeLightSensors() {
@@ -151,10 +216,7 @@ public class LineFollow {
 				}
 				controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
 			}
-			
 		
-			//Sound.beep();
-			
 			
 			while(lightFront.getLightValue() > 60 ||  (System.currentTimeMillis() - currentTime)< 1000) { // Hardcoded Margin Zone
 				calibrateLightSensors();
@@ -167,6 +229,18 @@ public class LineFollow {
 				controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
 			}
 		}
+		
+		if(hasCan) {
+			// Push can forward on final position
+			rightMotor.rotate(-240, true);
+			leftMotor.rotate(-240, true);
+			while(rightMotor.isMoving() || leftMotor.isMoving()) {
+				Delay.msDelay(5);
+			}
+			moveBackward();
+		}
+		
+		
 		rightMotor.stop(true);
 		leftMotor.stop();
 	}
@@ -191,6 +265,35 @@ public class LineFollow {
 		leftMotor.rotate(TURN_ANGLE_180, true);
 		rightMotor.rotate(-TURN_ANGLE_180);
 	}
+	
+	
+	
+	
+	private static void moveBackward() {
+		
+		long currentTime = System.currentTimeMillis();
+		rightMotor.forward();
+		leftMotor.forward();
+		
+		while(lightFront.getLightValue() > 60 ||  (System.currentTimeMillis() - currentTime) < 20) { // Hardcoded Margin Zone
+		
+			try {
+				Thread.sleep(5);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+		}
+		
+		rightMotor.stop(true);
+		leftMotor.stop();
+	}
+	
+	
+	
+	
+	
 	// negative difference should make robot turn left
 	// positive difference should turn robot to the right
 	private static void controlSpeed(int difference) {		
@@ -200,6 +303,123 @@ public class LineFollow {
 		rightMotor.setSpeed(DEFAULT_SPEED - difference);
 	}
 	
+	
+	
+	private static String readRoute(String inputFile) {
+		String returnString = "";
+
+	    StringBuffer fileContent = new StringBuffer("");
+	    FileInputStream fis;
+	    try {
+
+	        fis = new FileInputStream(new File(inputFile));
+
+	        byte[] buffer = new byte[1024];
+	        int n;
+	        while ((n = fis.read(buffer)) != -1) 
+	        { 
+	          fileContent.append(new String(buffer, 0, n)); 
+	        }
+	    }catch(Exception e) {
+	    	LCD.drawString("ERROR", 5, 5, false);
+	    }
+	    returnString = fileContent.toString();
+		return returnString;
+	}
+	
+	
+	
+	
+	private static Orientation executeTurn(char c, Orientation currentOrientation, int numOfFields , boolean hasCan) {
+		if(c == 'u') {
+			switch(currentOrientation) {
+				case Right:
+					// Turn 90 degrees left
+					turnLeft();
+					break;
+				case Down:
+					// Turn 180 degrees
+					turnAround();
+					break;
+				case Left:
+					// Turn 90 degrees right
+					turnRight();
+					break;
+				default: 
+					break;
+			}
+			
+			// move forward
+			moveForward(numOfFields, hasCan);
+			return Orientation.Top;
+		}
+		else if(c == 'r') {
+			switch(currentOrientation) {
+			case Top:
+				// Turn 90 degrees right
+				turnRight();
+				break;
+			case Down:
+				// Turn 90 degrees left
+				turnLeft();
+				break;
+			case Left:
+				// Turn 180 degrees
+				turnAround();
+				break;
+			default: 
+				break;
+		}		
+		// move forward
+		moveForward(numOfFields, hasCan);
+		return Orientation.Right;
+		}
+		else if(c == 'd') {
+			switch(currentOrientation) {
+			case Top:
+				// Turn 180 degrees 
+				turnAround();
+				break;
+			case Right:
+				// Turn 90 degrees right
+				turnRight();
+				break;
+			case Left:
+				// Turn 90 degrees left
+				turnLeft();
+				break;
+			default: 
+				break;
+		}		
+		// move forward
+		moveForward(numOfFields, hasCan);
+		return Orientation.Down;
+		}
+		
+		else if(c == 'l') {
+			switch(currentOrientation) {
+			case Top:
+				// Turn 90 degrees left
+				turnLeft();
+				break;
+			case Right:
+				// Turn 180 degrees
+				turnAround();
+				break;
+			case Down:
+				// Turn 90 degrees right
+				turnRight();
+				break;
+			default: 
+				break;
+		}		
+		// move forward
+		moveForward(numOfFields, hasCan);
+		return Orientation.Left;
+		}
+		else {
+			//System.exit(3); // unsupported character
+			return null;
+		}
+	}
 }
-
-
