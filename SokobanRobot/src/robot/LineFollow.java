@@ -31,15 +31,18 @@ public class LineFollow {
 	
 	// Constants								// GREAT RESULTS!!!			// Big Robot Values
 	static final int DEFAULT_SPEED = 400;		// 400						// 200
-	static final int TURN_ANGLE_90 = 160;		// 160						// 180, 150
-	static final int TURN_ANGLE_180 = 310;		// 310						// 330
-	static final int LIGHT_FRONT_BLACK = 85;	// 85						// 85
+	static final int TURN_ANGLE_90 = 126;		// 157 160						// 180, 150
+	static final int TURN_ANGLE_180 = 280;		// 310						// 330
+	static final int LIGHT_FRONT_BLACK = 80;	// 85						// 85
 	static final double DIFFERENCE_SCALAR = 0.8;// 0.8						// 0.8
+	static final int WAIT_MILLISECONDS = 2;
 	
 	public static void main(String[] args) {
 		// initialize
-		rightMotor.setAcceleration(5980);
-		rightMotor.setAcceleration(5980);
+		
+				
+		rightMotor.setAcceleration(5000);	//5980
+		rightMotor.setAcceleration(5000);	//5980
 		rightMotor.setSpeed(DEFAULT_SPEED);
 		leftMotor.setSpeed(DEFAULT_SPEED);
 		initializeLightSensors();
@@ -58,8 +61,19 @@ public class LineFollow {
 		int j = 0;
 		char currentChar = ' ';
 		char nextChar = ' ';
-
+/*
+		while(true)
+		{
+			
+			Delay.msDelay(100);
+			calibrateLightSensors();
+			LCD.drawString(lightFront.getLightValue() + "          ", 2, 1, false);
+			if(i == -1) { break;}
+		}
+	*/	
+		
 		while (true) {
+			
 			try {
 				currentChar = route.charAt(i);
 			} catch (Exception e) {
@@ -99,11 +113,10 @@ public class LineFollow {
 			}
 			
 			
-			
-			
-			
 			i = i + j + 1;
 		}
+		
+		Sound.beep();
 		
 		
 		
@@ -198,6 +211,12 @@ public class LineFollow {
 	}
 	
 	private static void moveForward(int numOfFields, boolean hasCan) {
+		/*Thread t = null;
+		if(hasCan) {
+			t = new Thread(new Mp3Player());
+			t.start();	
+		}
+		*/
 		calibrateLightSensors();
 		for(int i = 0; i < numOfFields; i++) {
 			long currentTime = System.currentTimeMillis();
@@ -208,7 +227,7 @@ public class LineFollow {
 			{
 				calibrateLightSensors();
 				try {
-					Thread.sleep(5);
+					Thread.sleep(WAIT_MILLISECONDS);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -218,10 +237,10 @@ public class LineFollow {
 			}
 		
 			
-			while(lightFront.getLightValue() > 60 ||  (System.currentTimeMillis() - currentTime)< 1000) { // Hardcoded Margin Zone
+			while(lightFront.getLightValue() > LIGHT_FRONT_BLACK ||  (System.currentTimeMillis() - currentTime)< 1000) { // Hardcoded Margin Zone
 				calibrateLightSensors();
 				try {
-					Thread.sleep(5);
+					Thread.sleep(WAIT_MILLISECONDS);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -238,6 +257,7 @@ public class LineFollow {
 				Delay.msDelay(5);
 			}
 			moveBackward();
+			//t.interrupt();
 		}
 		
 		
@@ -246,24 +266,99 @@ public class LineFollow {
 	}
 	
 	private static void turnLeft() {
+		//Button.waitForAnyPress();
 		leftMotor.setSpeed(DEFAULT_SPEED);
 		rightMotor.setSpeed(DEFAULT_SPEED);
 		leftMotor.rotate(TURN_ANGLE_90, true);
 		rightMotor.rotate(-TURN_ANGLE_90);
+		//Button.waitForAnyPress();
+		
+		leftMotor.setSpeed(200);
+		rightMotor.setSpeed(200);
+		
+		rightMotor.backward();
+		leftMotor.forward();
+		
+		while(lightFront.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
+			
+			try {
+				Thread.sleep(WAIT_MILLISECONDS);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+		}
+		
+		rightMotor.stop(true);
+		leftMotor.stop();
+		rightMotor.rotate(6, true);
+		leftMotor.rotate(-6);
 	}
 	
 	private static void turnRight() {
+		//Button.waitForAnyPress();
 		rightMotor.setSpeed(DEFAULT_SPEED);
 		leftMotor.setSpeed(DEFAULT_SPEED);
 		rightMotor.rotate(TURN_ANGLE_90, true);
 		leftMotor.rotate(-TURN_ANGLE_90);
+		//Button.waitForAnyPress();
+		
+		leftMotor.setSpeed(200);
+		rightMotor.setSpeed(200);
+		
+		rightMotor.forward();
+		leftMotor.backward();
+		
+		while(lightFront.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
+			
+			try {
+				Thread.sleep(WAIT_MILLISECONDS);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+		}
+		
+		rightMotor.stop(true);
+		leftMotor.stop();
+		
+		rightMotor.rotate(-6, true);
+		leftMotor.rotate(6);
 	}
 	
 	private static void turnAround() {
+		//Button.waitForAnyPress();
 		leftMotor.setSpeed(DEFAULT_SPEED);
 		rightMotor.setSpeed(DEFAULT_SPEED);
 		leftMotor.rotate(TURN_ANGLE_180, true);
 		rightMotor.rotate(-TURN_ANGLE_180);
+		//Button.waitForAnyPress();
+		
+		leftMotor.setSpeed(200);
+		rightMotor.setSpeed(200);
+		
+		rightMotor.backward();
+		leftMotor.forward();
+		
+		while(lightFront.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
+			
+			try {
+				Thread.sleep(WAIT_MILLISECONDS);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+		}
+		
+		rightMotor.stop(true);
+		leftMotor.stop();
+		
+		rightMotor.rotate(6, true);
+		leftMotor.rotate(-6);
+		
 	}
 	
 	
@@ -275,10 +370,10 @@ public class LineFollow {
 		rightMotor.forward();
 		leftMotor.forward();
 		
-		while(lightFront.getLightValue() > 60 ||  (System.currentTimeMillis() - currentTime) < 20) { // Hardcoded Margin Zone
+		while(lightFront.getLightValue() > LIGHT_FRONT_BLACK) { // Hardcoded Margin Zone
 		
 			try {
-				Thread.sleep(5);
+				Thread.sleep(WAIT_MILLISECONDS);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -288,6 +383,13 @@ public class LineFollow {
 		
 		rightMotor.stop(true);
 		leftMotor.stop();
+		
+		rightMotor.rotate(-40, true);
+		leftMotor.rotate(-40, false);
+		while(rightMotor.isMoving() || leftMotor.isMoving()) {
+			Delay.msDelay(5);
+		}
+		
 	}
 	
 	
