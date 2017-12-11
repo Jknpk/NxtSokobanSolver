@@ -30,25 +30,28 @@ public class LineFollow {
 	static int lightValueMaxFront = 0;
 	
 	// Constants								// GREAT RESULTS!!!			// Big Robot Values
+	static final int TURN_SPEED = 200;
 	static final int DEFAULT_SPEED = 400;		// 400						// 200
 	static final int TURN_ANGLE_90 = 126;		// 157 160						// 180, 150
-	static final int TURN_ANGLE_180 = 280;		// 310						// 330
+	static final int TURN_ANGLE_180 = 250;		// 315						// 330
 	static final int LIGHT_FRONT_BLACK = 80;	// 85						// 85
-	static final double DIFFERENCE_SCALAR = 0.8;// 0.8						// 0.8
+	static final double DIFFERENCE_SCALAR = 0.9;// 0.8						// 0.8
 	static final int WAIT_MILLISECONDS = 2;
+	static final int LIGHT_EQUAL = 2;
 	
 	public static void main(String[] args) {
 		// initialize
 		
 				
-		rightMotor.setAcceleration(5000);	//5980
-		rightMotor.setAcceleration(5000);	//5980
+		rightMotor.setAcceleration(4000);	//5980
+		rightMotor.setAcceleration(4000);	//5980
 		rightMotor.setSpeed(DEFAULT_SPEED);
 		leftMotor.setSpeed(DEFAULT_SPEED);
 		initializeLightSensors();
 		
 		
-		String inputFile = "input.txt";
+		String inputFile = "solution.txt";
+		//String inputFile = "test.txt";
 		String route = readRoute(inputFile);
 		Orientation robotOrientation = Orientation.Top;
 		Sound.beep();
@@ -273,14 +276,14 @@ public class LineFollow {
 		rightMotor.rotate(-TURN_ANGLE_90);
 		//Button.waitForAnyPress();
 		
-		leftMotor.setSpeed(200);
-		rightMotor.setSpeed(200);
+		leftMotor.setSpeed(TURN_SPEED);
+		rightMotor.setSpeed(TURN_SPEED);
 		
 		rightMotor.backward();
 		leftMotor.forward();
 		
 		while(lightFront.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
-			
+		//while(lightLeft.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
 			try {
 				Thread.sleep(WAIT_MILLISECONDS);
 			} catch (InterruptedException e) {
@@ -290,12 +293,29 @@ public class LineFollow {
 			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
 		}
 		
+//		while(abs(lightLeft.getLightValue() - lightRight.getLightValue()) > LIGHT_EQUAL ) { // Hardcoded Margin Zone
+//			try {
+//				Thread.sleep(WAIT_MILLISECONDS);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+//		}
+		
 		rightMotor.stop(true);
 		leftMotor.stop();
+		
 		rightMotor.rotate(6, true);
 		leftMotor.rotate(-6);
 	}
 	
+	private static int abs(int i) {
+		if(i < 0)
+			i = i*-1;
+		return i;
+	}
+
 	private static void turnRight() {
 		//Button.waitForAnyPress();
 		rightMotor.setSpeed(DEFAULT_SPEED);
@@ -304,13 +324,14 @@ public class LineFollow {
 		leftMotor.rotate(-TURN_ANGLE_90);
 		//Button.waitForAnyPress();
 		
-		leftMotor.setSpeed(200);
-		rightMotor.setSpeed(200);
+		leftMotor.setSpeed(TURN_SPEED);
+		rightMotor.setSpeed(TURN_SPEED);
 		
 		rightMotor.forward();
 		leftMotor.backward();
 		
 		while(lightFront.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
+		//while(lightRight.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
 			
 			try {
 				Thread.sleep(WAIT_MILLISECONDS);
@@ -320,6 +341,16 @@ public class LineFollow {
 			}
 			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
 		}
+		
+//		while(abs(lightLeft.getLightValue() - lightRight.getLightValue()) > LIGHT_EQUAL ) { // Hardcoded Margin Zone
+//			try {
+//				Thread.sleep(WAIT_MILLISECONDS);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+//		}
 		
 		rightMotor.stop(true);
 		leftMotor.stop();
@@ -336,14 +367,14 @@ public class LineFollow {
 		rightMotor.rotate(-TURN_ANGLE_180);
 		//Button.waitForAnyPress();
 		
-		leftMotor.setSpeed(200);
-		rightMotor.setSpeed(200);
+		leftMotor.setSpeed(TURN_SPEED);
+		rightMotor.setSpeed(TURN_SPEED);
 		
 		rightMotor.backward();
 		leftMotor.forward();
 		
 		while(lightFront.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
-			
+		//while(lightLeft.getLightValue() > LIGHT_FRONT_BLACK ) { // Hardcoded Margin Zone
 			try {
 				Thread.sleep(WAIT_MILLISECONDS);
 			} catch (InterruptedException e) {
@@ -352,6 +383,16 @@ public class LineFollow {
 			}
 			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
 		}
+		
+//		while(abs(lightLeft.getLightValue() - lightRight.getLightValue()) > LIGHT_EQUAL ) { // Hardcoded Margin Zone
+//			try {
+//				Thread.sleep(WAIT_MILLISECONDS);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+//		}
 		
 		rightMotor.stop(true);
 		leftMotor.stop();
@@ -367,6 +408,8 @@ public class LineFollow {
 	private static void moveBackward() {
 		
 		long currentTime = System.currentTimeMillis();
+		leftMotor.setSpeed(DEFAULT_SPEED);
+		rightMotor.setSpeed(DEFAULT_SPEED);
 		rightMotor.forward();
 		leftMotor.forward();
 		
@@ -378,7 +421,7 @@ public class LineFollow {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			//controlSpeed(lightLeft.getLightValue()-lightRight.getLightValue());
+			//controlSpeed(lightRight.getLightValue()-lightLeft.getLightValue());
 		}
 		
 		rightMotor.stop(true);
